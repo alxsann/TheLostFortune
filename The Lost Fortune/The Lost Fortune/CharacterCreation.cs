@@ -51,21 +51,6 @@ namespace The_Lost_Fortune
             lblDesc.Text = "The hunter is awesome blah blah blah blah...\r\nHe gains following bonuses:";
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBack_Click(object sender, EventArgs e)
         {
             ButtonToggleVisibility();
@@ -87,16 +72,6 @@ namespace The_Lost_Fortune
             btnConfirm.Visible = !btnConfirm.Visible;
             lblChooseC.Visible = !lblChooseC.Visible;
             lblExcellent.Visible = !lblExcellent.Visible;
-        }
-
-        private void CharacterCreation_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblExcellent_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

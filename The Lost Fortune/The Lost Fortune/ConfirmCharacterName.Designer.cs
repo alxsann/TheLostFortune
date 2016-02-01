@@ -43,7 +43,6 @@
             this.label1.Size = new System.Drawing.Size(464, 14);
             this.label1.TabIndex = 0;
             this.label1.Text = "Please select and enter your desired username for your character";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -53,7 +52,6 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Create Character";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -62,7 +60,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(108, 23);
             this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
