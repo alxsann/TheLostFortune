@@ -30,6 +30,17 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lblEnvironment = new System.Windows.Forms.Label();
+            this.gBoxEnemy = new System.Windows.Forms.GroupBox();
+            this.lblEnemyStatus = new System.Windows.Forms.Label();
+            this.lblEnemyLVL = new System.Windows.Forms.Label();
+            this.gBoxPlayer = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblPlayerXP = new System.Windows.Forms.Label();
+            this.lblPlayerMBonus = new System.Windows.Forms.Label();
+            this.lblPlayerPBonus = new System.Windows.Forms.Label();
+            this.lblPlayerMana = new System.Windows.Forms.Label();
+            this.lblPlayerHealth = new System.Windows.Forms.Label();
             this.btnLand7 = new System.Windows.Forms.Button();
             this.btnLand6 = new System.Windows.Forms.Button();
             this.btnLand5 = new System.Windows.Forms.Button();
@@ -50,6 +61,17 @@
             this.txtBattle = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -67,6 +89,7 @@
             this.lblStatPKill = new System.Windows.Forms.Label();
             this.lblStatMKill = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblAttPoints = new System.Windows.Forms.Label();
             this.lblAttMBonus = new System.Windows.Forms.Label();
             this.lblAttPBonus = new System.Windows.Forms.Label();
             this.lblAttMana = new System.Windows.Forms.Label();
@@ -79,37 +102,30 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.lblPlayerMBonus = new System.Windows.Forms.Label();
-            this.lblPlayerPBonus = new System.Windows.Forms.Label();
-            this.lblPlayerMana = new System.Windows.Forms.Label();
-            this.lblPlayerHealth = new System.Windows.Forms.Label();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.lblEnemyStatus = new System.Windows.Forms.Label();
-            this.lblEnemyLVL = new System.Windows.Forms.Label();
-            this.lblPlayerXP = new System.Windows.Forms.Label();
-            this.lblAttPoints = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblEnvironment = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.btnAddHealth = new System.Windows.Forms.Button();
+            this.btnAddMana = new System.Windows.Forms.Button();
+            this.btnAddPBonus = new System.Windows.Forms.Button();
+            this.btnAddMBonus = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.gBoxEnemy.SuspendLayout();
+            this.gBoxPlayer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -117,15 +133,7 @@
             this.tabPage3.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -142,8 +150,8 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.lblEnvironment);
-            this.tabPage1.Controls.Add(this.groupBox9);
-            this.tabPage1.Controls.Add(this.groupBox8);
+            this.tabPage1.Controls.Add(this.gBoxEnemy);
+            this.tabPage1.Controls.Add(this.gBoxPlayer);
             this.tabPage1.Controls.Add(this.btnLand7);
             this.tabPage1.Controls.Add(this.btnLand6);
             this.tabPage1.Controls.Add(this.btnLand5);
@@ -164,6 +172,113 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Adventure!";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // lblEnvironment
+            // 
+            this.lblEnvironment.AutoSize = true;
+            this.lblEnvironment.Location = new System.Drawing.Point(166, 174);
+            this.lblEnvironment.Name = "lblEnvironment";
+            this.lblEnvironment.Size = new System.Drawing.Size(118, 13);
+            this.lblEnvironment.TabIndex = 20;
+            this.lblEnvironment.Text = "ENVIRONMENTNAME";
+            // 
+            // gBoxEnemy
+            // 
+            this.gBoxEnemy.Controls.Add(this.lblEnemyStatus);
+            this.gBoxEnemy.Controls.Add(this.lblEnemyLVL);
+            this.gBoxEnemy.Location = new System.Drawing.Point(743, 202);
+            this.gBoxEnemy.Name = "gBoxEnemy";
+            this.gBoxEnemy.Size = new System.Drawing.Size(190, 210);
+            this.gBoxEnemy.TabIndex = 19;
+            this.gBoxEnemy.TabStop = false;
+            this.gBoxEnemy.Text = "ENEMYNAME";
+            // 
+            // lblEnemyStatus
+            // 
+            this.lblEnemyStatus.AutoSize = true;
+            this.lblEnemyStatus.Location = new System.Drawing.Point(6, 29);
+            this.lblEnemyStatus.Name = "lblEnemyStatus";
+            this.lblEnemyStatus.Size = new System.Drawing.Size(105, 13);
+            this.lblEnemyStatus.TabIndex = 1;
+            this.lblEnemyStatus.Text = "Status: Severely hurt";
+            // 
+            // lblEnemyLVL
+            // 
+            this.lblEnemyLVL.AutoSize = true;
+            this.lblEnemyLVL.Location = new System.Drawing.Point(6, 16);
+            this.lblEnemyLVL.Name = "lblEnemyLVL";
+            this.lblEnemyLVL.Size = new System.Drawing.Size(29, 13);
+            this.lblEnemyLVL.TabIndex = 0;
+            this.lblEnemyLVL.Text = "LVL:";
+            // 
+            // gBoxPlayer
+            // 
+            this.gBoxPlayer.Controls.Add(this.label1);
+            this.gBoxPlayer.Controls.Add(this.lblPlayerXP);
+            this.gBoxPlayer.Controls.Add(this.lblPlayerMBonus);
+            this.gBoxPlayer.Controls.Add(this.lblPlayerPBonus);
+            this.gBoxPlayer.Controls.Add(this.lblPlayerMana);
+            this.gBoxPlayer.Controls.Add(this.lblPlayerHealth);
+            this.gBoxPlayer.Location = new System.Drawing.Point(8, 202);
+            this.gBoxPlayer.Name = "gBoxPlayer";
+            this.gBoxPlayer.Size = new System.Drawing.Size(190, 210);
+            this.gBoxPlayer.TabIndex = 18;
+            this.gBoxPlayer.TabStop = false;
+            this.gBoxPlayer.Text = "PLAYERNAME";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "LVL:";
+            // 
+            // lblPlayerXP
+            // 
+            this.lblPlayerXP.AutoSize = true;
+            this.lblPlayerXP.Location = new System.Drawing.Point(6, 194);
+            this.lblPlayerXP.Name = "lblPlayerXP";
+            this.lblPlayerXP.Size = new System.Drawing.Size(24, 13);
+            this.lblPlayerXP.TabIndex = 4;
+            this.lblPlayerXP.Text = "XP:";
+            // 
+            // lblPlayerMBonus
+            // 
+            this.lblPlayerMBonus.AutoSize = true;
+            this.lblPlayerMBonus.Location = new System.Drawing.Point(6, 69);
+            this.lblPlayerMBonus.Name = "lblPlayerMBonus";
+            this.lblPlayerMBonus.Size = new System.Drawing.Size(117, 13);
+            this.lblPlayerMBonus.TabIndex = 3;
+            this.lblPlayerMBonus.Text = "Magical damage bonus";
+            // 
+            // lblPlayerPBonus
+            // 
+            this.lblPlayerPBonus.AutoSize = true;
+            this.lblPlayerPBonus.Location = new System.Drawing.Point(6, 56);
+            this.lblPlayerPBonus.Name = "lblPlayerPBonus";
+            this.lblPlayerPBonus.Size = new System.Drawing.Size(122, 13);
+            this.lblPlayerPBonus.TabIndex = 2;
+            this.lblPlayerPBonus.Text = "Physical damage bonus:";
+            // 
+            // lblPlayerMana
+            // 
+            this.lblPlayerMana.AutoSize = true;
+            this.lblPlayerMana.Location = new System.Drawing.Point(6, 42);
+            this.lblPlayerMana.Name = "lblPlayerMana";
+            this.lblPlayerMana.Size = new System.Drawing.Size(37, 13);
+            this.lblPlayerMana.TabIndex = 1;
+            this.lblPlayerMana.Text = "Mana:";
+            // 
+            // lblPlayerHealth
+            // 
+            this.lblPlayerHealth.AutoSize = true;
+            this.lblPlayerHealth.Location = new System.Drawing.Point(6, 29);
+            this.lblPlayerHealth.Name = "lblPlayerHealth";
+            this.lblPlayerHealth.Size = new System.Drawing.Size(41, 13);
+            this.lblPlayerHealth.TabIndex = 0;
+            this.lblPlayerHealth.Text = "Health:";
             // 
             // btnLand7
             // 
@@ -335,6 +450,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label11);
+            this.tabPage2.Controls.Add(this.label9);
             this.tabPage2.Controls.Add(this.groupBox5);
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox3);
@@ -378,6 +495,96 @@
             this.groupBox5.TabIndex = 11;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "groupBox5";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(152, 56);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(121, 73);
+            this.pictureBox8.TabIndex = 26;
+            this.pictureBox8.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(71, 331);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(25, 13);
+            this.label8.TabIndex = 25;
+            this.label8.Text = "Belt";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(199, 331);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(30, 13);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Legs";
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(24, 148);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(121, 21);
+            this.comboBox7.TabIndex = 23;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(152, 148);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(121, 21);
+            this.comboBox6.TabIndex = 22;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(279, 175);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox7.TabIndex = 21;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(152, 175);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox6.TabIndex = 20;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(24, 175);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox5.TabIndex = 19;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(279, 374);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(152, 374);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(24, 374);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // comboBox5
             // 
@@ -525,6 +732,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnAddMBonus);
+            this.groupBox2.Controls.Add(this.btnAddPBonus);
+            this.groupBox2.Controls.Add(this.btnAddMana);
+            this.groupBox2.Controls.Add(this.btnAddHealth);
             this.groupBox2.Controls.Add(this.lblAttPoints);
             this.groupBox2.Controls.Add(this.lblAttMBonus);
             this.groupBox2.Controls.Add(this.lblAttPBonus);
@@ -537,10 +748,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Attributes";
             // 
+            // lblAttPoints
+            // 
+            this.lblAttPoints.AutoSize = true;
+            this.lblAttPoints.Location = new System.Drawing.Point(6, 138);
+            this.lblAttPoints.Name = "lblAttPoints";
+            this.lblAttPoints.Size = new System.Drawing.Size(82, 13);
+            this.lblAttPoints.TabIndex = 4;
+            this.lblAttPoints.Text = "AvailablePoints:";
+            // 
             // lblAttMBonus
             // 
             this.lblAttMBonus.AutoSize = true;
-            this.lblAttMBonus.Location = new System.Drawing.Point(6, 56);
+            this.lblAttMBonus.Location = new System.Drawing.Point(6, 91);
             this.lblAttMBonus.Name = "lblAttMBonus";
             this.lblAttMBonus.Size = new System.Drawing.Size(117, 13);
             this.lblAttMBonus.TabIndex = 3;
@@ -549,7 +769,7 @@
             // lblAttPBonus
             // 
             this.lblAttPBonus.AutoSize = true;
-            this.lblAttPBonus.Location = new System.Drawing.Point(6, 43);
+            this.lblAttPBonus.Location = new System.Drawing.Point(6, 66);
             this.lblAttPBonus.Name = "lblAttPBonus";
             this.lblAttPBonus.Size = new System.Drawing.Size(122, 13);
             this.lblAttPBonus.TabIndex = 2;
@@ -558,7 +778,7 @@
             // lblAttMana
             // 
             this.lblAttMana.AutoSize = true;
-            this.lblAttMana.Location = new System.Drawing.Point(6, 29);
+            this.lblAttMana.Location = new System.Drawing.Point(6, 41);
             this.lblAttMana.Name = "lblAttMana";
             this.lblAttMana.Size = new System.Drawing.Size(37, 13);
             this.lblAttMana.TabIndex = 1;
@@ -586,9 +806,9 @@
             this.lblPName.AutoSize = true;
             this.lblPName.Location = new System.Drawing.Point(8, 3);
             this.lblPName.Name = "lblPName";
-            this.lblPName.Size = new System.Drawing.Size(134, 13);
+            this.lblPName.Size = new System.Drawing.Size(104, 13);
             this.lblPName.TabIndex = 0;
-            this.lblPName.Text = "CHARACTERNAMEHERE";
+            this.lblPName.Text = "CHARACTERNAME";
             // 
             // tabPage3
             // 
@@ -652,211 +872,59 @@
             this.checkBox1.Text = "Minimize when closed";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // groupBox8
+            // btnAddHealth
             // 
-            this.groupBox8.Controls.Add(this.label1);
-            this.groupBox8.Controls.Add(this.lblPlayerXP);
-            this.groupBox8.Controls.Add(this.lblPlayerMBonus);
-            this.groupBox8.Controls.Add(this.lblPlayerPBonus);
-            this.groupBox8.Controls.Add(this.lblPlayerMana);
-            this.groupBox8.Controls.Add(this.lblPlayerHealth);
-            this.groupBox8.Location = new System.Drawing.Point(8, 202);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(190, 210);
-            this.groupBox8.TabIndex = 18;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "PLAYERNAME";
+            this.btnAddHealth.Location = new System.Drawing.Point(203, 13);
+            this.btnAddHealth.Name = "btnAddHealth";
+            this.btnAddHealth.Size = new System.Drawing.Size(19, 19);
+            this.btnAddHealth.TabIndex = 8;
+            this.btnAddHealth.Text = "+";
+            this.btnAddHealth.UseVisualStyleBackColor = true;
             // 
-            // lblPlayerMBonus
+            // btnAddMana
             // 
-            this.lblPlayerMBonus.AutoSize = true;
-            this.lblPlayerMBonus.Location = new System.Drawing.Point(6, 69);
-            this.lblPlayerMBonus.Name = "lblPlayerMBonus";
-            this.lblPlayerMBonus.Size = new System.Drawing.Size(117, 13);
-            this.lblPlayerMBonus.TabIndex = 3;
-            this.lblPlayerMBonus.Text = "Magical damage bonus";
+            this.btnAddMana.Location = new System.Drawing.Point(203, 38);
+            this.btnAddMana.Name = "btnAddMana";
+            this.btnAddMana.Size = new System.Drawing.Size(19, 19);
+            this.btnAddMana.TabIndex = 9;
+            this.btnAddMana.Text = "+";
+            this.btnAddMana.UseVisualStyleBackColor = true;
             // 
-            // lblPlayerPBonus
+            // btnAddPBonus
             // 
-            this.lblPlayerPBonus.AutoSize = true;
-            this.lblPlayerPBonus.Location = new System.Drawing.Point(6, 56);
-            this.lblPlayerPBonus.Name = "lblPlayerPBonus";
-            this.lblPlayerPBonus.Size = new System.Drawing.Size(122, 13);
-            this.lblPlayerPBonus.TabIndex = 2;
-            this.lblPlayerPBonus.Text = "Physical damage bonus:";
+            this.btnAddPBonus.Location = new System.Drawing.Point(203, 63);
+            this.btnAddPBonus.Name = "btnAddPBonus";
+            this.btnAddPBonus.Size = new System.Drawing.Size(19, 19);
+            this.btnAddPBonus.TabIndex = 10;
+            this.btnAddPBonus.Text = "+";
+            this.btnAddPBonus.UseVisualStyleBackColor = true;
             // 
-            // lblPlayerMana
+            // btnAddMBonus
             // 
-            this.lblPlayerMana.AutoSize = true;
-            this.lblPlayerMana.Location = new System.Drawing.Point(6, 42);
-            this.lblPlayerMana.Name = "lblPlayerMana";
-            this.lblPlayerMana.Size = new System.Drawing.Size(37, 13);
-            this.lblPlayerMana.TabIndex = 1;
-            this.lblPlayerMana.Text = "Mana:";
+            this.btnAddMBonus.Location = new System.Drawing.Point(203, 88);
+            this.btnAddMBonus.Name = "btnAddMBonus";
+            this.btnAddMBonus.Size = new System.Drawing.Size(19, 19);
+            this.btnAddMBonus.TabIndex = 11;
+            this.btnAddMBonus.Text = "+";
+            this.btnAddMBonus.UseVisualStyleBackColor = true;
             // 
-            // lblPlayerHealth
+            // label11
             // 
-            this.lblPlayerHealth.AutoSize = true;
-            this.lblPlayerHealth.Location = new System.Drawing.Point(6, 29);
-            this.lblPlayerHealth.Name = "lblPlayerHealth";
-            this.lblPlayerHealth.Size = new System.Drawing.Size(41, 13);
-            this.lblPlayerHealth.TabIndex = 0;
-            this.lblPlayerHealth.Text = "Health:";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(199, 3);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(24, 13);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "XP:";
             // 
-            // groupBox9
+            // label9
             // 
-            this.groupBox9.Controls.Add(this.lblEnemyStatus);
-            this.groupBox9.Controls.Add(this.lblEnemyLVL);
-            this.groupBox9.Location = new System.Drawing.Point(743, 202);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(190, 210);
-            this.groupBox9.TabIndex = 19;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "ENEMYNAME";
-            // 
-            // lblEnemyStatus
-            // 
-            this.lblEnemyStatus.AutoSize = true;
-            this.lblEnemyStatus.Location = new System.Drawing.Point(6, 29);
-            this.lblEnemyStatus.Name = "lblEnemyStatus";
-            this.lblEnemyStatus.Size = new System.Drawing.Size(105, 13);
-            this.lblEnemyStatus.TabIndex = 1;
-            this.lblEnemyStatus.Text = "Status: Severely hurt";
-            // 
-            // lblEnemyLVL
-            // 
-            this.lblEnemyLVL.AutoSize = true;
-            this.lblEnemyLVL.Location = new System.Drawing.Point(6, 16);
-            this.lblEnemyLVL.Name = "lblEnemyLVL";
-            this.lblEnemyLVL.Size = new System.Drawing.Size(29, 13);
-            this.lblEnemyLVL.TabIndex = 0;
-            this.lblEnemyLVL.Text = "LVL:";
-            // 
-            // lblPlayerXP
-            // 
-            this.lblPlayerXP.AutoSize = true;
-            this.lblPlayerXP.Location = new System.Drawing.Point(6, 194);
-            this.lblPlayerXP.Name = "lblPlayerXP";
-            this.lblPlayerXP.Size = new System.Drawing.Size(24, 13);
-            this.lblPlayerXP.TabIndex = 4;
-            this.lblPlayerXP.Text = "XP:";
-            // 
-            // lblAttPoints
-            // 
-            this.lblAttPoints.AutoSize = true;
-            this.lblAttPoints.Location = new System.Drawing.Point(6, 117);
-            this.lblAttPoints.Name = "lblAttPoints";
-            this.lblAttPoints.Size = new System.Drawing.Size(82, 13);
-            this.lblAttPoints.TabIndex = 4;
-            this.lblAttPoints.Text = "AvailablePoints:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "LVL:";
-            // 
-            // lblEnvironment
-            // 
-            this.lblEnvironment.AutoSize = true;
-            this.lblEnvironment.Location = new System.Drawing.Point(166, 174);
-            this.lblEnvironment.Name = "lblEnvironment";
-            this.lblEnvironment.Size = new System.Drawing.Size(118, 13);
-            this.lblEnvironment.TabIndex = 20;
-            this.lblEnvironment.Text = "ENVIRONMENTNAME";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(24, 374);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(152, 374);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(279, 374);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(24, 175);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(152, 175);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox6.TabIndex = 20;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(279, 175);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox7.TabIndex = 21;
-            this.pictureBox7.TabStop = false;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(152, 148);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 21);
-            this.comboBox6.TabIndex = 22;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(24, 148);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 21);
-            this.comboBox7.TabIndex = 23;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(199, 331);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 13);
-            this.label7.TabIndex = 24;
-            this.label7.Text = "Legs";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(71, 331);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(25, 13);
-            this.label8.TabIndex = 25;
-            this.label8.Text = "Belt";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(152, 56);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(121, 73);
-            this.pictureBox8.TabIndex = 26;
-            this.pictureBox8.TabStop = false;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(141, 3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "LVL:";
             // 
             // MainForm
             // 
@@ -870,6 +938,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.gBoxEnemy.ResumeLayout(false);
+            this.gBoxEnemy.PerformLayout();
+            this.gBoxPlayer.ResumeLayout(false);
+            this.gBoxPlayer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).EndInit();
@@ -878,6 +950,13 @@
             this.tabPage2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -890,17 +969,7 @@
             this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -958,10 +1027,10 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.GroupBox gBoxEnemy;
         private System.Windows.Forms.Label lblEnemyStatus;
         private System.Windows.Forms.Label lblEnemyLVL;
-        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.GroupBox gBoxPlayer;
         private System.Windows.Forms.Label lblPlayerXP;
         private System.Windows.Forms.Label lblPlayerMBonus;
         private System.Windows.Forms.Label lblPlayerPBonus;
@@ -981,5 +1050,12 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnAddMBonus;
+        private System.Windows.Forms.Button btnAddPBonus;
+        private System.Windows.Forms.Button btnAddMana;
+        private System.Windows.Forms.Button btnAddHealth;
+        private System.Diagnostics.PerformanceCounter performanceCounter1;
     }
 }
