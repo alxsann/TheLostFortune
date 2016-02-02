@@ -36,7 +36,7 @@ namespace The_Lost_Fortune
         private void btnWarrior_Click(object sender, EventArgs e)
         {
             ButtonToggleVisibility();
-            lblDesc.Text = "The warrior is a trendmenous fighter, who is capable of wielding even the heaviest weapons found on the battlefield. He does not hestiate in battle and will fight to the end, even if death seems near   \r\n
+            lblDesc.Text = "The warrior is a trendmenous fighter, who is capable of wielding even the heaviest weapons found on the battlefield. He does not hestiate in battle and will fight to the end, even if death seems near   \r\n"
                 + "\r\n The Warrior starts with the following base stats: \r\n -100 Health \r\n -100 Mana \r\n -5 Physical Damage \r\n Unique class bonus stats! - +20 Health and +5 Physical damage      "
                 + "\r\n \r\n  The Warrior has 3 different abilities: "
                 + "\r\n - Mortal strike, a fierce strikes, that strikes an enemy and makes the target unable to cast immune spells for 1 round"
@@ -49,21 +49,6 @@ namespace The_Lost_Fortune
         {
             ButtonToggleVisibility();
             lblDesc.Text = "The hunter is awesome blah blah blah blah...\r\nHe gains following bonuses:";
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -87,16 +72,6 @@ namespace The_Lost_Fortune
             btnConfirm.Visible = !btnConfirm.Visible;
             lblChooseC.Visible = !lblChooseC.Visible;
             lblExcellent.Visible = !lblExcellent.Visible;
-        }
-
-        private void CharacterCreation_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblExcellent_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
