@@ -14,6 +14,7 @@ namespace The_Lost_Fortune
     {
         public CharacterCreation()
         {
+
             InitializeComponent();
 
         }
