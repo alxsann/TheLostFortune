@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CharacterCreation));
             this.btnMage = new System.Windows.Forms.Button();
             this.btnWarrior = new System.Windows.Forms.Button();
             this.btnHunter = new System.Windows.Forms.Button();
@@ -124,12 +125,13 @@
             this.lblExcellent.TabIndex = 9;
             this.lblExcellent.Text = "Excellent choice!";
             this.lblExcellent.Visible = false;
-            this.lblExcellent.Click += new System.EventHandler(this.lblExcellent_Click);
             // 
             // CharacterCreation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1074, 569);
             this.Controls.Add(this.lblExcellent);
             this.Controls.Add(this.btnBack);
@@ -141,7 +143,6 @@
             this.Controls.Add(this.btnMage);
             this.Name = "CharacterCreation";
             this.Text = "Character Creation";
-            this.Load += new System.EventHandler(this.CharacterCreation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

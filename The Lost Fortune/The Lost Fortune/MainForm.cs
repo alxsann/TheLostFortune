@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace The_Lost_Fortune
 {
-    public partial class ConfirmCharacterName : Form
+    public partial class MainForm : Form
     {
-        public ConfirmCharacterName()
+        public MainForm()
         {
             InitializeComponent();
         }
