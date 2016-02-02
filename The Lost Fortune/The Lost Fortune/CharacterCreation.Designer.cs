@@ -124,7 +124,6 @@
             this.lblExcellent.TabIndex = 9;
             this.lblExcellent.Text = "Excellent choice!";
             this.lblExcellent.Visible = false;
-            this.lblExcellent.Click += new System.EventHandler(this.lblExcellent_Click);
             // 
             // CharacterCreation
             // 
@@ -141,7 +140,6 @@
             this.Controls.Add(this.btnMage);
             this.Name = "CharacterCreation";
             this.Text = "Character Creation";
-            this.Load += new System.EventHandler(this.CharacterCreation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
