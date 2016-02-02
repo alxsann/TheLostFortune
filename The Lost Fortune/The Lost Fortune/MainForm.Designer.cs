@@ -30,34 +30,34 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lblChar = new System.Windows.Forms.Label();
+            this.lblPlayerStatus = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblEnemyStatus = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnFlee = new System.Windows.Forms.Button();
+            this.btnSkill = new System.Windows.Forms.Button();
+            this.btnBlock = new System.Windows.Forms.Button();
+            this.btnAttack = new System.Windows.Forms.Button();
             this.cBoxSkill = new System.Windows.Forms.ComboBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnAttack = new System.Windows.Forms.Button();
-            this.btnBlock = new System.Windows.Forms.Button();
-            this.btnSkill = new System.Windows.Forms.Button();
-            this.btnFlee = new System.Windows.Forms.Button();
-            this.lblEnemyStatus = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblPlayerStatus = new System.Windows.Forms.Label();
-            this.lblChar = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -96,6 +96,135 @@
             this.tabPage1.Text = "Adventure!";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            this.button8.Enabled = false;
+            this.button8.Location = new System.Drawing.Point(768, 351);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(103, 23);
+            this.button8.TabIndex = 17;
+            this.button8.Text = "Area not yet found";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Enabled = false;
+            this.button7.Location = new System.Drawing.Point(659, 351);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(103, 23);
+            this.button7.TabIndex = 16;
+            this.button7.Text = "Area not yet found";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Enabled = false;
+            this.button6.Location = new System.Drawing.Point(550, 351);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(103, 23);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Area not yet found";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Enabled = false;
+            this.button5.Location = new System.Drawing.Point(441, 351);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(103, 23);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "Area not yet found";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Enabled = false;
+            this.button4.Location = new System.Drawing.Point(332, 351);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(103, 23);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Area not yet found";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Enabled = false;
+            this.button3.Location = new System.Drawing.Point(223, 351);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(103, 23);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Area not yet found";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(114, 351);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "The deserts";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(777, 57);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(153, 127);
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(10, 191);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(152, 121);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // lblChar
+            // 
+            this.lblChar.AutoSize = true;
+            this.lblChar.Location = new System.Drawing.Point(12, 315);
+            this.lblChar.Name = "lblChar";
+            this.lblChar.Size = new System.Drawing.Size(73, 13);
+            this.lblChar.TabIndex = 8;
+            this.lblChar.Text = "Name: \\r\\nlvl:";
+            // 
+            // lblPlayerStatus
+            // 
+            this.lblPlayerStatus.AutoSize = true;
+            this.lblPlayerStatus.Location = new System.Drawing.Point(89, 323);
+            this.lblPlayerStatus.Name = "lblPlayerStatus";
+            this.lblPlayerStatus.Size = new System.Drawing.Size(324, 13);
+            this.lblPlayerStatus.TabIndex = 7;
+            this.lblPlayerStatus.Text = "Health: | Mana: | Physical Damage Bonus: | Magic Damage Bonus: ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(8, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(762, 178);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblEnemyStatus
+            // 
+            this.lblEnemyStatus.AutoSize = true;
+            this.lblEnemyStatus.Location = new System.Drawing.Point(776, 6);
+            this.lblEnemyStatus.Name = "lblEnemyStatus";
+            this.lblEnemyStatus.Size = new System.Drawing.Size(158, 13);
+            this.lblEnemyStatus.TabIndex = 5;
+            this.lblEnemyStatus.Text = "MobName \\r\\nlvl ?? \\r\\nStatus:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(10, 351);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Search the lands";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnFlee);
@@ -109,6 +238,42 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Battle options";
+            // 
+            // btnFlee
+            // 
+            this.btnFlee.Location = new System.Drawing.Point(7, 79);
+            this.btnFlee.Name = "btnFlee";
+            this.btnFlee.Size = new System.Drawing.Size(75, 23);
+            this.btnFlee.TabIndex = 5;
+            this.btnFlee.Text = "Flee!";
+            this.btnFlee.UseVisualStyleBackColor = true;
+            // 
+            // btnSkill
+            // 
+            this.btnSkill.Location = new System.Drawing.Point(111, 62);
+            this.btnSkill.Name = "btnSkill";
+            this.btnSkill.Size = new System.Drawing.Size(75, 23);
+            this.btnSkill.TabIndex = 4;
+            this.btnSkill.Text = "Use skill";
+            this.btnSkill.UseVisualStyleBackColor = true;
+            // 
+            // btnBlock
+            // 
+            this.btnBlock.Location = new System.Drawing.Point(7, 49);
+            this.btnBlock.Name = "btnBlock";
+            this.btnBlock.Size = new System.Drawing.Size(75, 23);
+            this.btnBlock.TabIndex = 3;
+            this.btnBlock.Text = "Block";
+            this.btnBlock.UseVisualStyleBackColor = true;
+            // 
+            // btnAttack
+            // 
+            this.btnAttack.Location = new System.Drawing.Point(7, 20);
+            this.btnAttack.Name = "btnAttack";
+            this.btnAttack.Size = new System.Drawing.Size(75, 23);
+            this.btnAttack.TabIndex = 2;
+            this.btnAttack.Text = "Basic Attack";
+            this.btnAttack.UseVisualStyleBackColor = true;
             // 
             // cBoxSkill
             // 
@@ -136,171 +301,6 @@
             this.tabPage2.Text = "Character";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(10, 351);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Search the lands";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // btnAttack
-            // 
-            this.btnAttack.Location = new System.Drawing.Point(7, 20);
-            this.btnAttack.Name = "btnAttack";
-            this.btnAttack.Size = new System.Drawing.Size(75, 23);
-            this.btnAttack.TabIndex = 2;
-            this.btnAttack.Text = "Basic Attack";
-            this.btnAttack.UseVisualStyleBackColor = true;
-            // 
-            // btnBlock
-            // 
-            this.btnBlock.Location = new System.Drawing.Point(7, 49);
-            this.btnBlock.Name = "btnBlock";
-            this.btnBlock.Size = new System.Drawing.Size(75, 23);
-            this.btnBlock.TabIndex = 3;
-            this.btnBlock.Text = "Block";
-            this.btnBlock.UseVisualStyleBackColor = true;
-            // 
-            // btnSkill
-            // 
-            this.btnSkill.Location = new System.Drawing.Point(111, 62);
-            this.btnSkill.Name = "btnSkill";
-            this.btnSkill.Size = new System.Drawing.Size(75, 23);
-            this.btnSkill.TabIndex = 4;
-            this.btnSkill.Text = "Use skill";
-            this.btnSkill.UseVisualStyleBackColor = true;
-            // 
-            // btnFlee
-            // 
-            this.btnFlee.Location = new System.Drawing.Point(7, 79);
-            this.btnFlee.Name = "btnFlee";
-            this.btnFlee.Size = new System.Drawing.Size(75, 23);
-            this.btnFlee.TabIndex = 5;
-            this.btnFlee.Text = "Flee!";
-            this.btnFlee.UseVisualStyleBackColor = true;
-            // 
-            // lblEnemyStatus
-            // 
-            this.lblEnemyStatus.AutoSize = true;
-            this.lblEnemyStatus.Location = new System.Drawing.Point(776, 6);
-            this.lblEnemyStatus.Name = "lblEnemyStatus";
-            this.lblEnemyStatus.Size = new System.Drawing.Size(158, 13);
-            this.lblEnemyStatus.TabIndex = 5;
-            this.lblEnemyStatus.Text = "MobName \\r\\nlvl ?? \\r\\nStatus:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(8, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(762, 178);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // lblPlayerStatus
-            // 
-            this.lblPlayerStatus.AutoSize = true;
-            this.lblPlayerStatus.Location = new System.Drawing.Point(89, 323);
-            this.lblPlayerStatus.Name = "lblPlayerStatus";
-            this.lblPlayerStatus.Size = new System.Drawing.Size(324, 13);
-            this.lblPlayerStatus.TabIndex = 7;
-            this.lblPlayerStatus.Text = "Health: | Mana: | Physical Damage Bonus: | Magic Damage Bonus: ";
-            // 
-            // lblChar
-            // 
-            this.lblChar.AutoSize = true;
-            this.lblChar.Location = new System.Drawing.Point(12, 315);
-            this.lblChar.Name = "lblChar";
-            this.lblChar.Size = new System.Drawing.Size(73, 13);
-            this.lblChar.TabIndex = 8;
-            this.lblChar.Text = "Name: \\r\\nlvl:";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(10, 191);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(152, 121);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(777, 57);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(153, 127);
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(114, 351);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 23);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "The deserts";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(223, 351);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 23);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Area not yet found";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(332, 351);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 23);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Area not yet found";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(441, 351);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(103, 23);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Area not yet found";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(550, 351);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(103, 23);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "Area not yet found";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Enabled = false;
-            this.button7.Location = new System.Drawing.Point(659, 351);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(103, 23);
-            this.button7.TabIndex = 16;
-            this.button7.Text = "Area not yet found";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Enabled = false;
-            this.button8.Location = new System.Drawing.Point(768, 351);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(103, 23);
-            this.button8.TabIndex = 17;
-            this.button8.Text = "Area not yet found";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -313,10 +313,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
