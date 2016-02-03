@@ -42,8 +42,8 @@
             this.lblPlayerMana = new System.Windows.Forms.Label();
             this.lblPlayerHealth = new System.Windows.Forms.Label();
             this.btnLand7 = new System.Windows.Forms.Button();
-            this.btnLand6 = new System.Windows.Forms.Button();
             this.btnLand5 = new System.Windows.Forms.Button();
+            this.btnLand6 = new System.Windows.Forms.Button();
             this.btnLand4 = new System.Windows.Forms.Button();
             this.btnLand3 = new System.Windows.Forms.Button();
             this.btnLand2 = new System.Windows.Forms.Button();
@@ -51,7 +51,6 @@
             this.pBoxEnemy = new System.Windows.Forms.PictureBox();
             this.pBoxCombatPlayer = new System.Windows.Forms.PictureBox();
             this.pBoxEnvironment = new System.Windows.Forms.PictureBox();
-            this.btnSearch = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnFlee = new System.Windows.Forms.Button();
             this.btnSkill = new System.Windows.Forms.Button();
@@ -60,6 +59,8 @@
             this.cBoxSkill = new System.Windows.Forms.ComboBox();
             this.txtBattle = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -89,6 +90,12 @@
             this.lblStatPKill = new System.Windows.Forms.Label();
             this.lblStatMKill = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnAddResist = new System.Windows.Forms.Button();
+            this.lblAttResist = new System.Windows.Forms.Label();
+            this.btnAddMBonus = new System.Windows.Forms.Button();
+            this.btnAddPBonus = new System.Windows.Forms.Button();
+            this.btnAddMana = new System.Windows.Forms.Button();
+            this.btnAddHealth = new System.Windows.Forms.Button();
             this.lblAttPoints = new System.Windows.Forms.Label();
             this.lblAttMBonus = new System.Windows.Forms.Label();
             this.lblAttPBonus = new System.Windows.Forms.Label();
@@ -96,19 +103,13 @@
             this.lblAttHealth = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblPName = new System.Windows.Forms.Label();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.btnAddHealth = new System.Windows.Forms.Button();
-            this.btnAddMana = new System.Windows.Forms.Button();
-            this.btnAddPBonus = new System.Windows.Forms.Button();
-            this.btnAddMBonus = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.gBoxEnemy.SuspendLayout();
@@ -133,13 +134,13 @@
             this.tabPage3.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -153,8 +154,8 @@
             this.tabPage1.Controls.Add(this.gBoxEnemy);
             this.tabPage1.Controls.Add(this.gBoxPlayer);
             this.tabPage1.Controls.Add(this.btnLand7);
-            this.tabPage1.Controls.Add(this.btnLand6);
             this.tabPage1.Controls.Add(this.btnLand5);
+            this.tabPage1.Controls.Add(this.btnLand6);
             this.tabPage1.Controls.Add(this.btnLand4);
             this.tabPage1.Controls.Add(this.btnLand3);
             this.tabPage1.Controls.Add(this.btnLand2);
@@ -162,7 +163,6 @@
             this.tabPage1.Controls.Add(this.pBoxEnemy);
             this.tabPage1.Controls.Add(this.pBoxCombatPlayer);
             this.tabPage1.Controls.Add(this.pBoxEnvironment);
-            this.tabPage1.Controls.Add(this.btnSearch);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Controls.Add(this.txtBattle);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
@@ -282,72 +282,94 @@
             // 
             // btnLand7
             // 
+            this.btnLand7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLand7.Enabled = false;
-            this.btnLand7.Location = new System.Drawing.Point(766, 420);
+            this.btnLand7.Location = new System.Drawing.Point(736, 419);
             this.btnLand7.Name = "btnLand7";
             this.btnLand7.Size = new System.Drawing.Size(103, 23);
             this.btnLand7.TabIndex = 17;
-            this.btnLand7.Text = "Area not yet found";
+            this.btnLand7.Text = "World of the Void";
             this.btnLand7.UseVisualStyleBackColor = true;
-            // 
-            // btnLand6
-            // 
-            this.btnLand6.Enabled = false;
-            this.btnLand6.Location = new System.Drawing.Point(657, 420);
-            this.btnLand6.Name = "btnLand6";
-            this.btnLand6.Size = new System.Drawing.Size(103, 23);
-            this.btnLand6.TabIndex = 16;
-            this.btnLand6.Text = "Area not yet found";
-            this.btnLand6.UseVisualStyleBackColor = true;
             // 
             // btnLand5
             // 
+            this.btnLand5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLand5.Enabled = false;
-            this.btnLand5.Location = new System.Drawing.Point(548, 420);
+            this.btnLand5.Location = new System.Drawing.Point(518, 419);
             this.btnLand5.Name = "btnLand5";
             this.btnLand5.Size = new System.Drawing.Size(103, 23);
-            this.btnLand5.TabIndex = 15;
-            this.btnLand5.Text = "Area not yet found";
+            this.btnLand5.TabIndex = 16;
+            this.btnLand5.Text = "Eternal Depths";
             this.btnLand5.UseVisualStyleBackColor = true;
+            // 
+            // btnLand6
+            // 
+            this.btnLand6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLand6.Enabled = false;
+            this.btnLand6.Location = new System.Drawing.Point(627, 419);
+            this.btnLand6.Name = "btnLand6";
+            this.btnLand6.Size = new System.Drawing.Size(103, 23);
+            this.btnLand6.TabIndex = 15;
+            this.btnLand6.Text = "The Frozen Hills";
+            this.btnLand6.UseVisualStyleBackColor = true;
             // 
             // btnLand4
             // 
+            this.btnLand4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLand4.Enabled = false;
-            this.btnLand4.Location = new System.Drawing.Point(439, 420);
+            this.btnLand4.Location = new System.Drawing.Point(409, 419);
             this.btnLand4.Name = "btnLand4";
             this.btnLand4.Size = new System.Drawing.Size(103, 23);
             this.btnLand4.TabIndex = 14;
-            this.btnLand4.Text = "Area not yet found";
+            this.btnLand4.Text = "Necropolis";
             this.btnLand4.UseVisualStyleBackColor = true;
             // 
             // btnLand3
             // 
+            this.btnLand3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLand3.Enabled = false;
-            this.btnLand3.Location = new System.Drawing.Point(330, 420);
+            this.btnLand3.Location = new System.Drawing.Point(300, 419);
             this.btnLand3.Name = "btnLand3";
             this.btnLand3.Size = new System.Drawing.Size(103, 23);
             this.btnLand3.TabIndex = 13;
-            this.btnLand3.Text = "Area not yet found";
+            this.btnLand3.Text = "The Caves";
             this.btnLand3.UseVisualStyleBackColor = true;
             // 
             // btnLand2
             // 
+            this.btnLand2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLand2.Enabled = false;
-            this.btnLand2.Location = new System.Drawing.Point(221, 420);
+            this.btnLand2.Location = new System.Drawing.Point(180, 419);
             this.btnLand2.Name = "btnLand2";
-            this.btnLand2.Size = new System.Drawing.Size(103, 23);
+            this.btnLand2.Size = new System.Drawing.Size(114, 23);
             this.btnLand2.TabIndex = 12;
-            this.btnLand2.Text = "Area not yet found";
+            this.btnLand2.Text = "The Forgotten Forest";
             this.btnLand2.UseVisualStyleBackColor = true;
             // 
             // btnLand1
             // 
-            this.btnLand1.Location = new System.Drawing.Point(112, 420);
+            this.btnLand1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLand1.Location = new System.Drawing.Point(94, 419);
             this.btnLand1.Name = "btnLand1";
-            this.btnLand1.Size = new System.Drawing.Size(103, 23);
+            this.btnLand1.Size = new System.Drawing.Size(80, 23);
             this.btnLand1.TabIndex = 11;
-            this.btnLand1.Text = "The deserts";
+            this.btnLand1.Text = "The Deserts";
             this.btnLand1.UseVisualStyleBackColor = true;
+            this.btnLand1.Click += new System.EventHandler(this.btnLand1_Click);
             // 
             // pBoxEnemy
             // 
@@ -372,15 +394,6 @@
             this.pBoxEnvironment.Size = new System.Drawing.Size(925, 190);
             this.pBoxEnvironment.TabIndex = 6;
             this.pBoxEnvironment.TabStop = false;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Location = new System.Drawing.Point(8, 420);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(98, 23);
-            this.btnSearch.TabIndex = 4;
-            this.btnSearch.Text = "Search the lands";
-            this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -442,9 +455,9 @@
             // 
             // txtBattle
             // 
-            this.txtBattle.Location = new System.Drawing.Point(204, 202);
+            this.txtBattle.Location = new System.Drawing.Point(204, 208);
             this.txtBattle.Name = "txtBattle";
-            this.txtBattle.Size = new System.Drawing.Size(533, 210);
+            this.txtBattle.Size = new System.Drawing.Size(533, 204);
             this.txtBattle.TabIndex = 0;
             this.txtBattle.Text = "";
             // 
@@ -465,6 +478,24 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Character";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(199, 3);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(24, 13);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "XP:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(141, 3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "LVL:";
             // 
             // groupBox5
             // 
@@ -732,6 +763,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnAddResist);
+            this.groupBox2.Controls.Add(this.lblAttResist);
             this.groupBox2.Controls.Add(this.btnAddMBonus);
             this.groupBox2.Controls.Add(this.btnAddPBonus);
             this.groupBox2.Controls.Add(this.btnAddMana);
@@ -747,6 +780,60 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Attributes";
+            // 
+            // btnAddResist
+            // 
+            this.btnAddResist.Location = new System.Drawing.Point(203, 113);
+            this.btnAddResist.Name = "btnAddResist";
+            this.btnAddResist.Size = new System.Drawing.Size(19, 19);
+            this.btnAddResist.TabIndex = 13;
+            this.btnAddResist.Text = "+";
+            this.btnAddResist.UseVisualStyleBackColor = true;
+            // 
+            // lblAttResist
+            // 
+            this.lblAttResist.AutoSize = true;
+            this.lblAttResist.Location = new System.Drawing.Point(6, 116);
+            this.lblAttResist.Name = "lblAttResist";
+            this.lblAttResist.Size = new System.Drawing.Size(39, 13);
+            this.lblAttResist.TabIndex = 12;
+            this.lblAttResist.Text = "Resist:";
+            // 
+            // btnAddMBonus
+            // 
+            this.btnAddMBonus.Location = new System.Drawing.Point(203, 88);
+            this.btnAddMBonus.Name = "btnAddMBonus";
+            this.btnAddMBonus.Size = new System.Drawing.Size(19, 19);
+            this.btnAddMBonus.TabIndex = 11;
+            this.btnAddMBonus.Text = "+";
+            this.btnAddMBonus.UseVisualStyleBackColor = true;
+            // 
+            // btnAddPBonus
+            // 
+            this.btnAddPBonus.Location = new System.Drawing.Point(203, 63);
+            this.btnAddPBonus.Name = "btnAddPBonus";
+            this.btnAddPBonus.Size = new System.Drawing.Size(19, 19);
+            this.btnAddPBonus.TabIndex = 10;
+            this.btnAddPBonus.Text = "+";
+            this.btnAddPBonus.UseVisualStyleBackColor = true;
+            // 
+            // btnAddMana
+            // 
+            this.btnAddMana.Location = new System.Drawing.Point(203, 38);
+            this.btnAddMana.Name = "btnAddMana";
+            this.btnAddMana.Size = new System.Drawing.Size(19, 19);
+            this.btnAddMana.TabIndex = 9;
+            this.btnAddMana.Text = "+";
+            this.btnAddMana.UseVisualStyleBackColor = true;
+            // 
+            // btnAddHealth
+            // 
+            this.btnAddHealth.Location = new System.Drawing.Point(203, 13);
+            this.btnAddHealth.Name = "btnAddHealth";
+            this.btnAddHealth.Size = new System.Drawing.Size(19, 19);
+            this.btnAddHealth.TabIndex = 8;
+            this.btnAddHealth.Text = "+";
+            this.btnAddHealth.UseVisualStyleBackColor = true;
             // 
             // lblAttPoints
             // 
@@ -810,6 +897,15 @@
             this.lblPName.TabIndex = 0;
             this.lblPName.Text = "CHARACTERNAME";
             // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(939, 559);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Talents";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.groupBox7);
@@ -872,69 +968,16 @@
             this.checkBox1.Text = "Minimize when closed";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // btnAddHealth
-            // 
-            this.btnAddHealth.Location = new System.Drawing.Point(203, 13);
-            this.btnAddHealth.Name = "btnAddHealth";
-            this.btnAddHealth.Size = new System.Drawing.Size(19, 19);
-            this.btnAddHealth.TabIndex = 8;
-            this.btnAddHealth.Text = "+";
-            this.btnAddHealth.UseVisualStyleBackColor = true;
-            // 
-            // btnAddMana
-            // 
-            this.btnAddMana.Location = new System.Drawing.Point(203, 38);
-            this.btnAddMana.Name = "btnAddMana";
-            this.btnAddMana.Size = new System.Drawing.Size(19, 19);
-            this.btnAddMana.TabIndex = 9;
-            this.btnAddMana.Text = "+";
-            this.btnAddMana.UseVisualStyleBackColor = true;
-            // 
-            // btnAddPBonus
-            // 
-            this.btnAddPBonus.Location = new System.Drawing.Point(203, 63);
-            this.btnAddPBonus.Name = "btnAddPBonus";
-            this.btnAddPBonus.Size = new System.Drawing.Size(19, 19);
-            this.btnAddPBonus.TabIndex = 10;
-            this.btnAddPBonus.Text = "+";
-            this.btnAddPBonus.UseVisualStyleBackColor = true;
-            // 
-            // btnAddMBonus
-            // 
-            this.btnAddMBonus.Location = new System.Drawing.Point(203, 88);
-            this.btnAddMBonus.Name = "btnAddMBonus";
-            this.btnAddMBonus.Size = new System.Drawing.Size(19, 19);
-            this.btnAddMBonus.TabIndex = 11;
-            this.btnAddMBonus.Text = "+";
-            this.btnAddMBonus.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(199, 3);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(24, 13);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "XP:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(141, 3);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 13);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "LVL:";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(946, 586);
+            this.ClientSize = new System.Drawing.Size(944, 586);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -969,7 +1012,6 @@
             this.groupBox7.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -982,15 +1024,14 @@
         private System.Windows.Forms.ComboBox cBoxSkill;
         private System.Windows.Forms.RichTextBox txtBattle;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnFlee;
         private System.Windows.Forms.Button btnSkill;
         private System.Windows.Forms.Button btnBlock;
         private System.Windows.Forms.Button btnAttack;
         private System.Windows.Forms.PictureBox pBoxEnvironment;
         private System.Windows.Forms.Button btnLand7;
-        private System.Windows.Forms.Button btnLand6;
         private System.Windows.Forms.Button btnLand5;
+        private System.Windows.Forms.Button btnLand6;
         private System.Windows.Forms.Button btnLand4;
         private System.Windows.Forms.Button btnLand3;
         private System.Windows.Forms.Button btnLand2;
@@ -1056,6 +1097,8 @@
         private System.Windows.Forms.Button btnAddPBonus;
         private System.Windows.Forms.Button btnAddMana;
         private System.Windows.Forms.Button btnAddHealth;
-        private System.Diagnostics.PerformanceCounter performanceCounter1;
+        private System.Windows.Forms.Button btnAddResist;
+        private System.Windows.Forms.Label lblAttResist;
+        private System.Windows.Forms.TabPage tabPage4;
     }
 }
