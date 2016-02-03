@@ -16,7 +16,7 @@ namespace The_Lost_Fortune
         {
 
             InitializeComponent();
-
+            Iostreamer.LoadFile();
         }
 
         private void btnMage_Click(object sender, EventArgs e)
