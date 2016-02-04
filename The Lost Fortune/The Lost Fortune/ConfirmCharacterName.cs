@@ -12,24 +12,20 @@ namespace The_Lost_Fortune
 {
     public partial class ConfirmCharacterName : Form
     {
-        public ConfirmCharacterName()
+        CharacterCreation characterCreationForm;
+
+        public ConfirmCharacterName(CharacterCreation characterCreationForm)
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            this.characterCreationForm = characterCreationForm;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            MainForm game = new MainForm();
+            game.Show();
+            characterCreationForm.Hide();
+            this.Close();
         }
     }
 }

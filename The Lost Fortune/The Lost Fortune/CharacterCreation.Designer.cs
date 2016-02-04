@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CharacterCreation));
             this.btnMage = new System.Windows.Forms.Button();
             this.btnWarrior = new System.Windows.Forms.Button();
             this.btnHunter = new System.Windows.Forms.Button();
@@ -40,10 +41,12 @@
             // 
             // btnMage
             // 
-            this.btnMage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMage.Location = new System.Drawing.Point(149, 154);
+            this.btnMage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMage.BackgroundImage")));
+            this.btnMage.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic);
+            this.btnMage.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnMage.Location = new System.Drawing.Point(129, 154);
             this.btnMage.Name = "btnMage";
-            this.btnMage.Size = new System.Drawing.Size(259, 334);
+            this.btnMage.Size = new System.Drawing.Size(279, 285);
             this.btnMage.TabIndex = 0;
             this.btnMage.Text = "Mage";
             this.btnMage.UseVisualStyleBackColor = true;
@@ -51,10 +54,12 @@
             // 
             // btnWarrior
             // 
-            this.btnWarrior.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnWarrior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWarrior.BackgroundImage")));
+            this.btnWarrior.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic);
+            this.btnWarrior.ForeColor = System.Drawing.Color.OrangeRed;
             this.btnWarrior.Location = new System.Drawing.Point(414, 154);
             this.btnWarrior.Name = "btnWarrior";
-            this.btnWarrior.Size = new System.Drawing.Size(259, 334);
+            this.btnWarrior.Size = new System.Drawing.Size(259, 285);
             this.btnWarrior.TabIndex = 1;
             this.btnWarrior.Text = "Warrior";
             this.btnWarrior.UseVisualStyleBackColor = true;
@@ -62,10 +67,12 @@
             // 
             // btnHunter
             // 
-            this.btnHunter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHunter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHunter.BackgroundImage")));
+            this.btnHunter.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHunter.ForeColor = System.Drawing.Color.GreenYellow;
             this.btnHunter.Location = new System.Drawing.Point(679, 154);
             this.btnHunter.Name = "btnHunter";
-            this.btnHunter.Size = new System.Drawing.Size(259, 334);
+            this.btnHunter.Size = new System.Drawing.Size(259, 285);
             this.btnHunter.TabIndex = 2;
             this.btnHunter.Text = "Hunter";
             this.btnHunter.UseVisualStyleBackColor = true;
@@ -124,12 +131,13 @@
             this.lblExcellent.TabIndex = 9;
             this.lblExcellent.Text = "Excellent choice!";
             this.lblExcellent.Visible = false;
-            this.lblExcellent.Click += new System.EventHandler(this.lblExcellent_Click);
             // 
             // CharacterCreation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1074, 569);
             this.Controls.Add(this.lblExcellent);
             this.Controls.Add(this.btnBack);
@@ -141,7 +149,6 @@
             this.Controls.Add(this.btnMage);
             this.Name = "CharacterCreation";
             this.Text = "Character Creation";
-            this.Load += new System.EventHandler(this.CharacterCreation_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
