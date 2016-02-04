@@ -48,9 +48,6 @@
             this.btnLand3 = new System.Windows.Forms.Button();
             this.btnLand2 = new System.Windows.Forms.Button();
             this.btnLand1 = new System.Windows.Forms.Button();
-            this.pBoxEnemy = new System.Windows.Forms.PictureBox();
-            this.pBoxCombatPlayer = new System.Windows.Forms.PictureBox();
-            this.pBoxEnvironment = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnFlee = new System.Windows.Forms.Button();
             this.btnSkill = new System.Windows.Forms.Button();
@@ -62,17 +59,10 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -101,7 +91,6 @@
             this.lblAttPBonus = new System.Windows.Forms.Label();
             this.lblAttMana = new System.Windows.Forms.Label();
             this.lblAttHealth = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblPName = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -110,16 +99,33 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.pBoxEnemy = new System.Windows.Forms.PictureBox();
+            this.pBoxCombatPlayer = new System.Windows.Forms.PictureBox();
+            this.pBoxEnvironment = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.gBoxEnemy.SuspendLayout();
             this.gBoxPlayer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -127,13 +133,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -357,6 +357,7 @@
             this.btnLand2.TabIndex = 12;
             this.btnLand2.Text = "The Forgotten Forest";
             this.btnLand2.UseVisualStyleBackColor = true;
+            this.btnLand2.Click += new System.EventHandler(this.btnLand2_Click);
             // 
             // btnLand1
             // 
@@ -370,30 +371,6 @@
             this.btnLand1.Text = "The Deserts";
             this.btnLand1.UseVisualStyleBackColor = true;
             this.btnLand1.Click += new System.EventHandler(this.btnLand1_Click);
-            // 
-            // pBoxEnemy
-            // 
-            this.pBoxEnemy.Location = new System.Drawing.Point(780, 6);
-            this.pBoxEnemy.Name = "pBoxEnemy";
-            this.pBoxEnemy.Size = new System.Drawing.Size(153, 190);
-            this.pBoxEnemy.TabIndex = 10;
-            this.pBoxEnemy.TabStop = false;
-            // 
-            // pBoxCombatPlayer
-            // 
-            this.pBoxCombatPlayer.Location = new System.Drawing.Point(8, 6);
-            this.pBoxCombatPlayer.Name = "pBoxCombatPlayer";
-            this.pBoxCombatPlayer.Size = new System.Drawing.Size(152, 190);
-            this.pBoxCombatPlayer.TabIndex = 9;
-            this.pBoxCombatPlayer.TabStop = false;
-            // 
-            // pBoxEnvironment
-            // 
-            this.pBoxEnvironment.Location = new System.Drawing.Point(8, 6);
-            this.pBoxEnvironment.Name = "pBoxEnvironment";
-            this.pBoxEnvironment.Size = new System.Drawing.Size(925, 190);
-            this.pBoxEnvironment.TabIndex = 6;
-            this.pBoxEnvironment.TabStop = false;
             // 
             // groupBox1
             // 
@@ -469,8 +446,8 @@
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Controls.Add(this.groupBox2);
-            this.tabPage2.Controls.Add(this.pictureBox4);
             this.tabPage2.Controls.Add(this.lblPName);
+            this.tabPage2.Controls.Add(this.pictureBox4);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -527,14 +504,6 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "groupBox5";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(152, 56);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(121, 73);
-            this.pictureBox8.TabIndex = 26;
-            this.pictureBox8.TabStop = false;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -568,54 +537,6 @@
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 21);
             this.comboBox6.TabIndex = 22;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(279, 175);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox7.TabIndex = 21;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(152, 175);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox6.TabIndex = 20;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(24, 175);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(279, 374);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(152, 374);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(24, 374);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
             // 
             // comboBox5
             // 
@@ -880,14 +801,6 @@
             this.lblAttHealth.TabIndex = 0;
             this.lblAttHealth.Text = "Health:";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(8, 20);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
             // lblPName
             // 
             this.lblPName.AutoSize = true;
@@ -968,6 +881,94 @@
             this.checkBox1.Text = "Minimize when closed";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // pBoxEnemy
+            // 
+            this.pBoxEnemy.Location = new System.Drawing.Point(780, 6);
+            this.pBoxEnemy.Name = "pBoxEnemy";
+            this.pBoxEnemy.Size = new System.Drawing.Size(153, 190);
+            this.pBoxEnemy.TabIndex = 10;
+            this.pBoxEnemy.TabStop = false;
+            // 
+            // pBoxCombatPlayer
+            // 
+            this.pBoxCombatPlayer.Location = new System.Drawing.Point(8, 6);
+            this.pBoxCombatPlayer.Name = "pBoxCombatPlayer";
+            this.pBoxCombatPlayer.Size = new System.Drawing.Size(152, 190);
+            this.pBoxCombatPlayer.TabIndex = 9;
+            this.pBoxCombatPlayer.TabStop = false;
+            // 
+            // pBoxEnvironment
+            // 
+            this.pBoxEnvironment.Location = new System.Drawing.Point(8, 6);
+            this.pBoxEnvironment.Name = "pBoxEnvironment";
+            this.pBoxEnvironment.Size = new System.Drawing.Size(925, 190);
+            this.pBoxEnvironment.TabIndex = 6;
+            this.pBoxEnvironment.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(152, 56);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(121, 73);
+            this.pictureBox8.TabIndex = 26;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(279, 175);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox7.TabIndex = 21;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(152, 175);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox6.TabIndex = 20;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(24, 175);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox5.TabIndex = 19;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(279, 374);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(152, 374);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(24, 374);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(8, 20);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(121, 153);
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -985,14 +986,25 @@
             this.gBoxEnemy.PerformLayout();
             this.gBoxPlayer.ResumeLayout(false);
             this.gBoxPlayer.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -1000,18 +1012,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -35,5 +35,11 @@ namespace The_Lost_Fortune
         {
             Application.Exit();
         }
+
+        private void btnLand2_Click(object sender, EventArgs e)
+        {
+            map.GenerateMap(2);
+            map.Visible = true;
+        }
     }
 }

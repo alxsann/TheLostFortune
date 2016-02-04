@@ -19,8 +19,10 @@ namespace The_Lost_Fortune
 
         public void GenerateMap(int mapId)
         {
-            if(mapId == 1)
-            BackgroundImage = Image.FromFile("C:\\Deserts.jpg");
+            if (mapId == 1)
+                BackgroundImage = Properties.Resources.TheDesertsBackground;
+            else if (mapId == 2)
+                BackgroundImage = Properties.Resources.TheForgottenForestBackground;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
