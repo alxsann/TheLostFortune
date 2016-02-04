@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace The_Lost_Fortune
 {
-    public partial class MainForm : Form
+    public partial class WelomeToGame : Form
     {
-        public MainForm()
+        public WelomeToGame()
         {
             InitializeComponent();
         }
