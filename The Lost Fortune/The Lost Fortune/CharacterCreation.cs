@@ -42,8 +42,7 @@ namespace The_Lost_Fortune
                 + "\r\n \r\n The Warrior has 3 different abilities: "
                 + "\r\n - Mortal strike, a fierce strikes, that strikes an enemy and makes the target unable to cast immune spells for 1 round"
                 + "\r\n - Rend is a ranged fiery bolt, that is fired at the opponent dealing x Damage"
-                + " \r\n - Iceblock - A protective icebubble is cast, making the caster invurnable to the opponent next attack"
-                + " \r\n Iceblock also deals x dmg when being attacked, while iceblocked. Iceblock lasts 2 rounds (Note: This ability has a cooldown of 4 minutes) ";
+                + " \r\n - Iceblock - A protective icebubble is cast, making the caster invurnable to the opponent next attack";
         }
 
         private void btnHunter_Click(object sender, EventArgs e)
