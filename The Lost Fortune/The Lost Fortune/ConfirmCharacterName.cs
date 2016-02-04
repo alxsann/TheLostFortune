@@ -22,6 +22,7 @@ namespace The_Lost_Fortune
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             MainForm game = new MainForm();
             game.Show();
             characterCreationForm.Hide();
