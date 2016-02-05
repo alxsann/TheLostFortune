@@ -16,7 +16,7 @@ namespace The_Lost_Fortune
         {
 
             InitializeComponent();
-
+            Iostreamer.LoadFile();
         }
 
         private void btnMage_Click(object sender, EventArgs e)
@@ -60,7 +60,7 @@ namespace The_Lost_Fortune
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
-            ConfirmCharacterName cForm = new ConfirmCharacterName();
+            ConfirmCharacterName cForm = new ConfirmCharacterName(this);
             cForm.Show();
         }
 
