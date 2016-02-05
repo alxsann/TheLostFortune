@@ -93,14 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="MapControl.resx">
       <DependentUpon>MapControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +103,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -122,6 +122,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TheForgottenForestBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HunterCharacterImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WarriorCharacterImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MageCharacterImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheCavesBackground.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NecropolisBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EternalDepthsBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheFrozenHillsBackground.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

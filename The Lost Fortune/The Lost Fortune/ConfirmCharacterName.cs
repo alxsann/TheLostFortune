@@ -24,17 +24,13 @@ namespace The_Lost_Fortune
 
         private void btnCreateCharacter_click(object sender, EventArgs ee)
         {
-            if (CharacterNameField.Text != "")
+            if (txtCharacterNameField.Text != "")
             {
                 MainForm game = new MainForm();
                 game.Show();
                 characterCreationForm.Hide();
                 this.Close();
             }
-        }
-        private void CharacterNameField_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

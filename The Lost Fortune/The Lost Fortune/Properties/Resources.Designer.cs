@@ -63,6 +63,56 @@ namespace The_Lost_Fortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EternalDepthsBackground {
+            get {
+                object obj = ResourceManager.GetObject("EternalDepthsBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HunterCharacterImage {
+            get {
+                object obj = ResourceManager.GetObject("HunterCharacterImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MageCharacterImage {
+            get {
+                object obj = ResourceManager.GetObject("MageCharacterImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NecropolisBackground {
+            get {
+                object obj = ResourceManager.GetObject("NecropolisBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TheCavesBackground {
+            get {
+                object obj = ResourceManager.GetObject("TheCavesBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TheDesertsBackground {
             get {
                 object obj = ResourceManager.GetObject("TheDesertsBackground", resourceCulture);
@@ -76,6 +126,26 @@ namespace The_Lost_Fortune.Properties {
         internal static System.Drawing.Bitmap TheForgottenForestBackground {
             get {
                 object obj = ResourceManager.GetObject("TheForgottenForestBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TheFrozenHillsBackground {
+            get {
+                object obj = ResourceManager.GetObject("TheFrozenHillsBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WarriorCharacterImage {
+            get {
+                object obj = ResourceManager.GetObject("WarriorCharacterImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

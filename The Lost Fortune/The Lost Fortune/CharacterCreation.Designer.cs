@@ -41,7 +41,8 @@
             // 
             // btnMage
             // 
-            this.btnMage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMage.BackgroundImage")));
+            this.btnMage.BackgroundImage = global::The_Lost_Fortune.Properties.Resources.MageCharacterImage;
+            this.btnMage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMage.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic);
             this.btnMage.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btnMage.Location = new System.Drawing.Point(129, 154);
@@ -54,7 +55,8 @@
             // 
             // btnWarrior
             // 
-            this.btnWarrior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWarrior.BackgroundImage")));
+            this.btnWarrior.BackgroundImage = global::The_Lost_Fortune.Properties.Resources.WarriorCharacterImage;
+            this.btnWarrior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnWarrior.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic);
             this.btnWarrior.ForeColor = System.Drawing.Color.OrangeRed;
             this.btnWarrior.Location = new System.Drawing.Point(414, 154);
@@ -67,7 +69,8 @@
             // 
             // btnHunter
             // 
-            this.btnHunter.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHunter.BackgroundImage")));
+            this.btnHunter.BackgroundImage = global::The_Lost_Fortune.Properties.Resources.HunterCharacterImage;
+            this.btnHunter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHunter.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHunter.ForeColor = System.Drawing.Color.GreenYellow;
             this.btnHunter.Location = new System.Drawing.Point(679, 154);
@@ -81,7 +84,9 @@
             // lblChooseC
             // 
             this.lblChooseC.AutoSize = true;
+            this.lblChooseC.BackColor = System.Drawing.Color.Transparent;
             this.lblChooseC.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChooseC.ForeColor = System.Drawing.SystemColors.Control;
             this.lblChooseC.Location = new System.Drawing.Point(359, 9);
             this.lblChooseC.Name = "lblChooseC";
             this.lblChooseC.Size = new System.Drawing.Size(334, 31);
@@ -91,13 +96,15 @@
             // lblDesc
             // 
             this.lblDesc.AutoSize = true;
+            this.lblDesc.BackColor = System.Drawing.Color.Transparent;
             this.lblDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesc.Location = new System.Drawing.Point(189, 84);
+            this.lblDesc.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblDesc.Location = new System.Drawing.Point(124, 80);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(735, 25);
+            this.lblDesc.Size = new System.Drawing.Size(835, 25);
             this.lblDesc.TabIndex = 6;
-            this.lblDesc.Text = "Each class has a numerous of different abilities, which will help you as you prog" +
-    "ress.";
+            this.lblDesc.Text = "Each class has a numerous of different abilities and talents, which will help you" +
+    " as you progress.\r\n";
             // 
             // btnConfirm
             // 
@@ -124,7 +131,9 @@
             // lblExcellent
             // 
             this.lblExcellent.AutoSize = true;
+            this.lblExcellent.BackColor = System.Drawing.Color.Transparent;
             this.lblExcellent.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblExcellent.ForeColor = System.Drawing.SystemColors.Control;
             this.lblExcellent.Location = new System.Drawing.Point(408, 28);
             this.lblExcellent.Name = "lblExcellent";
             this.lblExcellent.Size = new System.Drawing.Size(235, 31);
@@ -138,6 +147,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1074, 569);
             this.Controls.Add(this.lblExcellent);
             this.Controls.Add(this.btnBack);

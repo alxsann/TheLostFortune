@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnCreateCharacter = new System.Windows.Forms.Button();
-            this.CharacterNameField = new System.Windows.Forms.TextBox();
+            this.txtCharacterNameField = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -38,15 +38,15 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("DejaVu Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 156);
+            this.label1.Location = new System.Drawing.Point(64, 170);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(464, 14);
+            this.label1.Size = new System.Drawing.Size(350, 14);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Please select and enter your desired username for your character";
+            this.label1.Text = "Please enter the desired name for your character";
             // 
             // btnCreateCharacter
             // 
-            this.btnCreateCharacter.Location = new System.Drawing.Point(148, 246);
+            this.btnCreateCharacter.Location = new System.Drawing.Point(158, 250);
             this.btnCreateCharacter.Name = "btnCreateCharacter";
             this.btnCreateCharacter.Size = new System.Drawing.Size(164, 33);
             this.btnCreateCharacter.TabIndex = 1;
@@ -54,20 +54,19 @@
             this.btnCreateCharacter.UseVisualStyleBackColor = true;
             this.btnCreateCharacter.Click += new System.EventHandler(this.btnCreateCharacter_click);
             // 
-            // CharacterNameField
+            // txtCharacterNameField
             // 
-            this.CharacterNameField.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CharacterNameField.Location = new System.Drawing.Point(171, 206);
-            this.CharacterNameField.Name = "CharacterNameField";
-            this.CharacterNameField.Size = new System.Drawing.Size(108, 23);
-            this.CharacterNameField.TabIndex = 2;
-            this.CharacterNameField.TextChanged += new System.EventHandler(this.CharacterNameField_TextChanged);
+            this.txtCharacterNameField.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCharacterNameField.Location = new System.Drawing.Point(189, 211);
+            this.txtCharacterNameField.Name = "txtCharacterNameField";
+            this.txtCharacterNameField.Size = new System.Drawing.Size(108, 23);
+            this.txtCharacterNameField.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(153, 20);
+            this.label2.Location = new System.Drawing.Point(163, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 25);
             this.label2.TabIndex = 3;
@@ -79,7 +78,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(513, 512);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.CharacterNameField);
+            this.Controls.Add(this.txtCharacterNameField);
             this.Controls.Add(this.btnCreateCharacter);
             this.Controls.Add(this.label1);
             this.Name = "ConfirmCharacterName";
@@ -93,7 +92,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCreateCharacter;
-        private System.Windows.Forms.TextBox CharacterNameField;
+        private System.Windows.Forms.TextBox txtCharacterNameField;
         private System.Windows.Forms.Label label2;
     }
 }
