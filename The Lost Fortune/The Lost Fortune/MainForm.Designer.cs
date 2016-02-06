@@ -52,6 +52,7 @@
             this.pBoxPlayer = new System.Windows.Forms.PictureBox();
             this.pBoxEnvironment = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SaveCharacter = new System.Windows.Forms.Button();
             this.LoadCharacter = new System.Windows.Forms.Button();
             this.btnFlee = new System.Windows.Forms.Button();
@@ -112,7 +113,6 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.gBoxEnemy.SuspendLayout();
@@ -418,6 +418,15 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Battle options";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(758, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 13);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Open a character";
             // 
             // SaveCharacter
             // 
@@ -1001,15 +1010,6 @@
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Minimize when closed";
             this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(714, 59);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 13);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Open a character";
             // 
             // MainForm
             // 

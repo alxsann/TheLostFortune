@@ -39,7 +39,7 @@ namespace The_Lost_Fortune
                 {
                     // Har oprettet en StreamReader for at kunne læse fra fil.
 
-                    using (StreamReader sr = new StreamReader("c:\\Users\\Casper\\Documents\\text2.bat.txt"))
+                    using (StreamReader sr = new StreamReader(Environment.SpecialFolder.MyDocuments.ToString()))
                     {
                         string line;
                       
