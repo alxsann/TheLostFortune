@@ -14,7 +14,6 @@ namespace The_Lost_Fortune
     {
         private MapControl map;
 
-
         public MainForm()
         {
             InitializeComponent();
@@ -23,7 +22,9 @@ namespace The_Lost_Fortune
             map.Visible = false;
             map.Location = new Point(204, 208);
             tabControl1.TabPages[0].Controls.Add(map);
-            map.BringToFront();                      
+            map.BringToFront();
+            pBoxPlayer.Parent = pBoxEnvironment;
+            pBoxEnemy.Parent = pBoxEnvironment;
         }
 
         private void btnLand1_Click(object sender, EventArgs e)
@@ -47,7 +48,6 @@ namespace The_Lost_Fortune
         {
             map.GenerateMap(3);
             map.Visible = true;
-
         }
 
         private void btnLand4_Click(object sender, EventArgs e)
