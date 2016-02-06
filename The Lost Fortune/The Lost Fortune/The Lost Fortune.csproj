@@ -46,29 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\Area.cs" />
     <Compile Include="CharacterCreation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CharacterCreation.Designer.cs">
       <DependentUpon>CharacterCreation.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClassStats.cs" />
-    <Compile Include="Entity.cs" />
+    <Compile Include="Data\ClassStats.cs" />
+    <Compile Include="Engine\Entity.cs" />
     <Compile Include="ConfirmCharacterName.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ConfirmCharacterName.Designer.cs">
       <DependentUpon>ConfirmCharacterName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Engine\Event.cs" />
     <Compile Include="FrontPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrontPage.Designer.cs">
       <DependentUpon>FrontPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Iostreamer.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="ItemStats.cs" />
+    <Compile Include="Data\Iostreamer.cs" />
+    <Compile Include="Engine\Item.cs" />
+    <Compile Include="Data\ItemStats.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
