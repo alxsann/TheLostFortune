@@ -52,17 +52,19 @@
     <Compile Include="CharacterCreation.Designer.cs">
       <DependentUpon>CharacterCreation.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClassStats.cs" />
+    <Compile Include="Entity.cs" />
     <Compile Include="ConfirmCharacterName.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ConfirmCharacterName.Designer.cs">
       <DependentUpon>ConfirmCharacterName.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrontPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrontPage.Designer.cs">
+      <DependentUpon>FrontPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Iostreamer.cs" />
     <Compile Include="MainForm.cs">
@@ -85,8 +87,8 @@
     <EmbeddedResource Include="ConfirmCharacterName.resx">
       <DependentUpon>ConfirmCharacterName.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrontPage.resx">
+      <DependentUpon>FrontPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
