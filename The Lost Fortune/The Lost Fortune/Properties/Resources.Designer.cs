@@ -143,6 +143,16 @@ namespace The_Lost_Fortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap TheDesertsMap {
+            get {
+                object obj = ResourceManager.GetObject("TheDesertsMap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TheForgottenForestBackground {
             get {
                 object obj = ResourceManager.GetObject("TheForgottenForestBackground", resourceCulture);

@@ -19,21 +19,31 @@ namespace The_Lost_Fortune
 
         public void GenerateMap(int mapId)
         {
-            if (mapId == 1)
+            switch(mapId)
             {
-                BackgroundImage = Properties.Resources.TheDesertsBackground;
-                lblMap.Text = "The Deserts";
+                case 1:
+                    BackgroundImage = Properties.Resources.TheDesertsMap;
+                    lblMap.Text = "The Deserts";
+                    break;
+                case 2:
+                    lblMap.Text = "The Forgotten Forest";
+                    break;
+                case 3:
+                    lblMap.Text = "The Caves";
+                    break;
+                case 4:
+                    lblMap.Text = "Necropolis";
+                    break;
+                case 5:
+                    lblMap.Text = "Eternal Depths";
+                    break;
+                case 6:
+                    lblMap.Text = "The Frozen Hills";
+                    break;
+                case 7:
+                    lblMap.Text = "World of the Void";
+                    break;
             }
-            else if (mapId == 2)
-                BackgroundImage = Properties.Resources.TheForgottenForestBackground;
-            else if (mapId == 3)
-                BackgroundImage = Properties.Resources.TheCavesBackground;
-            else if (mapId == 4)
-                BackgroundImage = Properties.Resources.NecropolisBackground;
-            else if (mapId == 5)
-                BackgroundImage = Properties.Resources.EternalDepthsBackground;
-            else if (mapId == 6)
-                BackgroundImage = Properties.Resources.TheFrozenHillsBackground;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
