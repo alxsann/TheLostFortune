@@ -8,13 +8,14 @@ namespace The_Lost_Fortune
 {
     public class ItemStats
     {
+        public const int ITEM_RUSTED_SWORD = 0;
         //   1     2       3          4           5           6               7                 8
         // Name, Type, MinDamage, MaxDamage, BonusHealth, BonusMana, BonusPhysicalDamage, BonusMagicalDamage,
         //      9           10              11               12         13    14
         // BonusResist, BonusDodge, CurrentDurability, MaxDurability, Image, Lore
         // Items position i denne liste er den samme som dens Id.
         private static List<object[]> Items = new List<object[]>();
-        static void GenerateItems()
+        public static void GenerateItems()
         {
             //string name = Items[1][0].ToString();
             // One Hand Swords
@@ -42,7 +43,7 @@ namespace The_Lost_Fortune
             Items.Add(new object[] { "Gallaths lost blade", "One Handed Axe", 10, 20, 0, 0, 8, 0, 10, 0, 20, 20, Properties.Resources.BilledeHer, "Gallaths who is a dwarven knight." });
         }
 
-        public object[] GetItem(int itemId)
+        public static object[] GetItem(int itemId)
         {
             return Items[itemId];
         }

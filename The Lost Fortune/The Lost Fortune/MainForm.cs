@@ -25,6 +25,9 @@ namespace The_Lost_Fortune
             map.BringToFront();
             pBoxPlayer.Parent = pBoxEnvironment;
             pBoxEnemy.Parent = pBoxEnvironment;
+
+            Monsters.GenerateMonsters();
+            ItemStats.GenerateItems();
         }
 
         private void btnLand1_Click(object sender, EventArgs e)
