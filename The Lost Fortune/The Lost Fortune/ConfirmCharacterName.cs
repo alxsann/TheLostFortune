@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace The_Lost_Fortune
+    
 {
     public partial class ConfirmCharacterName : Form
     {
@@ -20,12 +22,15 @@ namespace The_Lost_Fortune
             this.characterCreationForm = characterCreationForm;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCreateCharacter_click(object sender, EventArgs ee)
         {
-            MainForm game = new MainForm();
-            game.Show();
-            characterCreationForm.Hide();
-            this.Close();
+            if (txtCharacterNameField.Text != "")
+            {
+                MainForm game = new MainForm();
+                game.Show();
+                characterCreationForm.Hide();
+                this.Close();
+            }
         }
     }
 }
