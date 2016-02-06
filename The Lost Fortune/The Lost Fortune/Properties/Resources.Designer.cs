@@ -63,6 +63,16 @@ namespace The_Lost_Fortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DifferentSwords {
+            get {
+                object obj = ResourceManager.GetObject("DifferentSwords", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EternalDepthsBackground {
             get {
                 object obj = ResourceManager.GetObject("EternalDepthsBackground", resourceCulture);
@@ -96,6 +106,16 @@ namespace The_Lost_Fortune.Properties {
         internal static System.Drawing.Bitmap NecropolisBackground {
             get {
                 object obj = ResourceManager.GetObject("NecropolisBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RustedSwordImage {
+            get {
+                object obj = ResourceManager.GetObject("RustedSwordImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

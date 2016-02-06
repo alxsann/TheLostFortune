@@ -29,7 +29,7 @@ namespace The_Lost_Fortune
                     lblMap.Text = "The Forgotten Forest";
                     break;
                 case 3:
-                    lblMap.Text = "The Casves";
+                    lblMap.Text = "The Caves";
                     break;
                 case 4:
                     lblMap.Text = "Necropolis";

@@ -118,20 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EternalDepthsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EternalDepthsBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NecropolisBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NecropolisBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WarriorCharacterImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WarriorCharacterImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TheFrozenHillsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheFrozenHillsBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RustedSwordImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RustedSwordImage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TheCavesBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TheCavesBackground.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HunterCharacterImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HunterCharacterImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EternalDepthsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EternalDepthsBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TheDesertsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TheDesertsBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MageCharacterImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MageCharacterImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,11 +145,11 @@
   <data name="TheForgottenForestBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TheForgottenForestBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TheDesertsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TheDesertsBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HunterCharacterImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HunterCharacterImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TheFrozenHillsBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TheFrozenHillsBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DifferentSwords" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DifferentSwords.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TheDesertsMap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Deserts.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
