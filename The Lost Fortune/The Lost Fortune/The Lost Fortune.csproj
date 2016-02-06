@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Monsters.cs" />
     <Compile Include="Engine\Area.cs" />
     <Compile Include="CharacterCreation.cs">
       <SubType>Form</SubType>
@@ -54,6 +55,8 @@
       <DependentUpon>CharacterCreation.cs</DependentUpon>
     </Compile>
     <Compile Include="Data\ClassStats.cs" />
+    <Compile Include="Engine\BattleSystem.cs" />
+    <Compile Include="Engine\Enemy.cs" />
     <Compile Include="Engine\Entity.cs" />
     <Compile Include="ConfirmCharacterName.cs">
       <SubType>Form</SubType>
@@ -62,6 +65,7 @@
       <DependentUpon>ConfirmCharacterName.cs</DependentUpon>
     </Compile>
     <Compile Include="Engine\Event.cs" />
+    <Compile Include="Engine\Player.cs" />
     <Compile Include="FrontPage.cs">
       <SubType>Form</SubType>
     </Compile>

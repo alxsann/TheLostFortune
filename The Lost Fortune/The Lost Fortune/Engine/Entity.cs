@@ -9,78 +9,92 @@ namespace The_Lost_Fortune
 {
     class Entity
     {
-        private string Name;
-        private int gold;
-        private int Level;
-        private int Health;
-        private int Mana;
-        private int PhysicalDamage;
-        private int MagicalDamage;
-        private int Resist;
-        private int Dodge;
-        private int ExperiencePoints;
-        private bool IsDead = false;
+        private string _name;
+        private int _level;
+        private int _health;
+        private int _mana;
+        private int _physicalDamage;
+        private int _magicalDamage;
+        private int _resist;
+        private int _dodge;
+        private bool _isDead = false;
 
-        public Entity()
+        //skal bruge et array af data for at oprette en entity, kaldet data
+        //0 er navn, 1 er level, 2 er health, 3 er mana, 4 er pdamage, 5 er mdamage, 6 er resist, 7 er dodge
+        public Entity(object[] data)
         {
+            _name = data[0].ToString();
+            _level = Convert.ToInt32(data[1]);
+            _health = Convert.ToInt32(data[2]);
+            _mana = Convert.ToInt32(data[3]);
+            _physicalDamage = Convert.ToInt32(data[4]);
+            _magicalDamage = Convert.ToInt32(data[5]);
+            _resist = Convert.ToInt32(data[6]);
+            _dodge = Convert.ToInt32(data[7]);
         }
 
+        //Henter level
+        public int GetLevel()
+        {
+            return _level;
+        }
+
+        //tilføjer level, brugt kun i Player
+        public void AddLevel()
+        {
+            _level++;
+        }
+
+        //henter health
         public int GetHealth()
         {
-            return Health;
+            return _health;
         }
+
 
         // Når der bliver dealt skade ud - både til NPC og playeren
-
         public int DamageToHealth(double amount)
         {
-            amount = 1 + Math.Pow(Resist, 0.5);
-            Health = Health - Convert.ToInt32(amount);
+            amount = 1 + Math.Pow(_resist, 0.5);
+            _health = _health - Convert.ToInt32(amount);
 
-            if (Health <= 0)
-                IsDead = true;
+            if (_health <= 0)
+                _isDead = true;
             
-            return Health;
+            return _health;
         }
 
+        //til at heale liv
         public int HealHealth(int amount)
         {
-            Health = Health + amount;
-            return Health;
+            _health = _health + amount;
+            return _health;
         }
 
+        //henter mana
         public int GetMana()
         {
-            return Mana;
+            return _mana;
         }
 
-        // Eks. En spell som drainer npc/playerens mana
-
+        //damager mana, Eks. En spell som drainer npc/playerens mana
         public int DamageMana(int amount)
         {
-            Mana = Health - amount;
-            return Mana;
+            _mana = _health - amount;
+            return _mana;
         }
 
         // En spell som giver mana til npc/playeren
         public int HealMana(int amount)
         {
-            Mana = Mana + amount;
-            return Mana;
+            _mana = _mana + amount;
+            return _mana;
         }
-
-        public void AddExperiencePoints(int amount)
-        {
-            ExperiencePoints = ExperiencePoints + amount;
-            if (10 * Math.Pow(1.5, Level) < ExperiencePoints)
-            {
-                Level++;
-            }
-        }
-
+        
+        //Henter om en entity er død eller levende
         public bool GetState()
         {
-            return IsDead;
+            return _isDead;
         }
     }
 }
