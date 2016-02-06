@@ -9,17 +9,24 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace The_Lost_Fortune
+
 {
+    
     public partial class CharacterCreation : Form
+
     {
+        // Den valgte class får forskellige attributter
+        private int ClassID;
+        
         public CharacterCreation()
         {
             InitializeComponent();
-            Iostreamer.LoadFile();            
+                 
         }
 
         private void btnMage_Click(object sender, EventArgs e)
         {
+            ClassID = 2;
             ButtonToggleVisibility();
             lblDesc.Text = "Excellent choice";
             lblDesc.Text = "The Mage is a ranged spell caster, who excells at dealing damage with magic powers \r\n "
@@ -35,6 +42,7 @@ namespace The_Lost_Fortune
 
         private void btnWarrior_Click(object sender, EventArgs e)
         {
+            ClassID = 1;
             ButtonToggleVisibility();
             lblDesc.Text = "The warrior is a trendmenous fighter, who is capable of wielding even the heaviest weapons found on the battlefield. He does not hestiate in battle and will fight to the end, even if death seems near   \r\n"
                 + "\r\n The Warrior starts with the following base stats: \r\n 120 Health \r\n 100 Mana \r\n 5 Physical Damage"
@@ -46,6 +54,7 @@ namespace The_Lost_Fortune
 
         private void btnHunter_Click(object sender, EventArgs e)
         {
+            ClassID = 3;
             ButtonToggleVisibility();
             lblDesc.Text = "The hunter is a fierceful agile killer, who can wield ranged weapons and shoot them with great accuracy and overwhelming speed. His agility makes him able to dodge incoming attacks. \r\n"
                 + "\r\n The Hunter starts with the following base stats: \r\n 100 Health \r\n 120 Mana \r\n 5 Physical Damage"
@@ -63,7 +72,7 @@ namespace The_Lost_Fortune
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
-            ConfirmCharacterName cForm = new ConfirmCharacterName(this);
+            ConfirmCharacterName cForm = new ConfirmCharacterName(this, ClassID );
             cForm.Show();
         }
 
