@@ -67,6 +67,8 @@
       <DependentUpon>FrontPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Iostreamer.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemStats.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +147,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\TheFrozenHillsBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RustedSwordImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RustedSwordImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DifferentSwords.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

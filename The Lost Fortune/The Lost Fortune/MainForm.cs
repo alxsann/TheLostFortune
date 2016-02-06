@@ -23,7 +23,7 @@ namespace The_Lost_Fortune
             map.Visible = false;
             map.Location = new Point(204, 208);
             tabControl1.TabPages[0].Controls.Add(map);
-            map.BringToFront();                      
+            map.BringToFront();
         }
 
         private void btnLand1_Click(object sender, EventArgs e)
