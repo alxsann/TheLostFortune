@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheLostFortune
+namespace The_Lost_Fortune
 
 {
     class Entity
@@ -39,7 +39,7 @@ namespace TheLostFortune
 
             if (Health <= 0)
                 IsDead = true;
-
+            
             return Health;
         }
 
