@@ -10,14 +10,14 @@ namespace The_Lost_Fortune
 {
     class Iostreamer
     {
-        public static void SaveToFile(List<string> data)
+        public static void SaveToFile(List<object> data)
         {
             // Streamwriter oprettet for at kunne gemme "karateren"
             FileStream fs = new FileStream("c:\\Users\\Casper\\Documents\\text.bat.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             try
             {
-                foreach(string attribute in data)
+                foreach(object attribute in data)
                 sw.WriteLine(attribute);
             }
             finally
