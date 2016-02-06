@@ -35,7 +35,7 @@
             this.lblEnemyStatus = new System.Windows.Forms.Label();
             this.lblEnemyLVL = new System.Windows.Forms.Label();
             this.gBoxPlayer = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblPlayerLVL = new System.Windows.Forms.Label();
             this.lblPlayerXP = new System.Windows.Forms.Label();
             this.lblPlayerMBonus = new System.Windows.Forms.Label();
             this.lblPlayerPBonus = new System.Windows.Forms.Label();
@@ -49,40 +49,40 @@
             this.btnLand2 = new System.Windows.Forms.Button();
             this.btnLand1 = new System.Windows.Forms.Button();
             this.pBoxEnemy = new System.Windows.Forms.PictureBox();
-            this.pBoxCombatPlayer = new System.Windows.Forms.PictureBox();
+            this.pBoxPlayer = new System.Windows.Forms.PictureBox();
             this.pBoxEnvironment = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnFlee = new System.Windows.Forms.Button();
-            this.btnSkill = new System.Windows.Forms.Button();
+            this.btnUseSkill = new System.Windows.Forms.Button();
             this.btnBlock = new System.Windows.Forms.Button();
-            this.btnAttack = new System.Windows.Forms.Button();
+            this.btnBasicAttack = new System.Windows.Forms.Button();
             this.cBoxSkill = new System.Windows.Forms.ComboBox();
-            this.txtBattle = new System.Windows.Forms.RichTextBox();
+            this.txtBattleLog = new System.Windows.Forms.RichTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pBoxHead = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cBoxMainhand = new System.Windows.Forms.ComboBox();
+            this.cBoxArmor = new System.Windows.Forms.ComboBox();
+            this.pBoxOffhand = new System.Windows.Forms.PictureBox();
+            this.pBoxArmor = new System.Windows.Forms.PictureBox();
+            this.pBoxMainhand = new System.Windows.Forms.PictureBox();
+            this.pBoxFeet = new System.Windows.Forms.PictureBox();
+            this.pBoxLegs = new System.Windows.Forms.PictureBox();
+            this.pBoxBelt = new System.Windows.Forms.PictureBox();
+            this.cBoxLegs = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cBoxHead = new System.Windows.Forms.ComboBox();
+            this.cBoxOffhand = new System.Windows.Forms.ComboBox();
+            this.cBoxBelt = new System.Windows.Forms.ComboBox();
+            this.cBoxFeet = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -101,8 +101,8 @@
             this.lblAttPBonus = new System.Windows.Forms.Label();
             this.lblAttMana = new System.Windows.Forms.Label();
             this.lblAttHealth = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblPName = new System.Windows.Forms.Label();
+            this.pBoxCharacter = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
@@ -115,22 +115,22 @@
             this.gBoxEnemy.SuspendLayout();
             this.gBoxPlayer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxHead)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxOffhand)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxArmor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxMainhand)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxFeet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxLegs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxBelt)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxCharacter)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -150,6 +150,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tabPage1.Controls.Add(this.lblEnvironment);
             this.tabPage1.Controls.Add(this.gBoxEnemy);
             this.tabPage1.Controls.Add(this.gBoxPlayer);
@@ -161,10 +162,10 @@
             this.tabPage1.Controls.Add(this.btnLand2);
             this.tabPage1.Controls.Add(this.btnLand1);
             this.tabPage1.Controls.Add(this.pBoxEnemy);
-            this.tabPage1.Controls.Add(this.pBoxCombatPlayer);
+            this.tabPage1.Controls.Add(this.pBoxPlayer);
             this.tabPage1.Controls.Add(this.pBoxEnvironment);
             this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Controls.Add(this.txtBattle);
+            this.tabPage1.Controls.Add(this.txtBattleLog);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -176,11 +177,12 @@
             // lblEnvironment
             // 
             this.lblEnvironment.AutoSize = true;
-            this.lblEnvironment.Location = new System.Drawing.Point(166, 174);
+            this.lblEnvironment.ForeColor = System.Drawing.Color.Lime;
+            this.lblEnvironment.Location = new System.Drawing.Point(213, 173);
             this.lblEnvironment.Name = "lblEnvironment";
-            this.lblEnvironment.Size = new System.Drawing.Size(118, 13);
-            this.lblEnvironment.TabIndex = 20;
-            this.lblEnvironment.Text = "ENVIRONMENTNAME";
+            this.lblEnvironment.Size = new System.Drawing.Size(66, 13);
+            this.lblEnvironment.TabIndex = 21;
+            this.lblEnvironment.Text = "Environment";
             // 
             // gBoxEnemy
             // 
@@ -213,7 +215,7 @@
             // 
             // gBoxPlayer
             // 
-            this.gBoxPlayer.Controls.Add(this.label1);
+            this.gBoxPlayer.Controls.Add(this.lblPlayerLVL);
             this.gBoxPlayer.Controls.Add(this.lblPlayerXP);
             this.gBoxPlayer.Controls.Add(this.lblPlayerMBonus);
             this.gBoxPlayer.Controls.Add(this.lblPlayerPBonus);
@@ -226,14 +228,14 @@
             this.gBoxPlayer.TabStop = false;
             this.gBoxPlayer.Text = "PLAYERNAME";
             // 
-            // label1
+            // lblPlayerLVL
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "LVL:";
+            this.lblPlayerLVL.AutoSize = true;
+            this.lblPlayerLVL.Location = new System.Drawing.Point(6, 16);
+            this.lblPlayerLVL.Name = "lblPlayerLVL";
+            this.lblPlayerLVL.Size = new System.Drawing.Size(29, 13);
+            this.lblPlayerLVL.TabIndex = 5;
+            this.lblPlayerLVL.Text = "LVL:";
             // 
             // lblPlayerXP
             // 
@@ -285,7 +287,6 @@
             this.btnLand7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLand7.Enabled = false;
             this.btnLand7.Location = new System.Drawing.Point(736, 419);
             this.btnLand7.Name = "btnLand7";
             this.btnLand7.Size = new System.Drawing.Size(103, 23);
@@ -298,65 +299,65 @@
             this.btnLand5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLand5.Enabled = false;
             this.btnLand5.Location = new System.Drawing.Point(518, 419);
             this.btnLand5.Name = "btnLand5";
             this.btnLand5.Size = new System.Drawing.Size(103, 23);
             this.btnLand5.TabIndex = 16;
             this.btnLand5.Text = "Eternal Depths";
             this.btnLand5.UseVisualStyleBackColor = true;
+            this.btnLand5.Click += new System.EventHandler(this.btnLand5_Click);
             // 
             // btnLand6
             // 
             this.btnLand6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLand6.Enabled = false;
             this.btnLand6.Location = new System.Drawing.Point(627, 419);
             this.btnLand6.Name = "btnLand6";
             this.btnLand6.Size = new System.Drawing.Size(103, 23);
             this.btnLand6.TabIndex = 15;
             this.btnLand6.Text = "The Frozen Hills";
             this.btnLand6.UseVisualStyleBackColor = true;
+            this.btnLand6.Click += new System.EventHandler(this.btnLand6_Click);
             // 
             // btnLand4
             // 
             this.btnLand4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLand4.Enabled = false;
             this.btnLand4.Location = new System.Drawing.Point(409, 419);
             this.btnLand4.Name = "btnLand4";
             this.btnLand4.Size = new System.Drawing.Size(103, 23);
             this.btnLand4.TabIndex = 14;
             this.btnLand4.Text = "Necropolis";
             this.btnLand4.UseVisualStyleBackColor = true;
+            this.btnLand4.Click += new System.EventHandler(this.btnLand4_Click);
             // 
             // btnLand3
             // 
             this.btnLand3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLand3.Enabled = false;
             this.btnLand3.Location = new System.Drawing.Point(300, 419);
             this.btnLand3.Name = "btnLand3";
             this.btnLand3.Size = new System.Drawing.Size(103, 23);
             this.btnLand3.TabIndex = 13;
             this.btnLand3.Text = "The Caves";
             this.btnLand3.UseVisualStyleBackColor = true;
+            this.btnLand3.Click += new System.EventHandler(this.btnLand3_Click);
             // 
             // btnLand2
             // 
             this.btnLand2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLand2.Enabled = false;
             this.btnLand2.Location = new System.Drawing.Point(180, 419);
             this.btnLand2.Name = "btnLand2";
             this.btnLand2.Size = new System.Drawing.Size(114, 23);
             this.btnLand2.TabIndex = 12;
             this.btnLand2.Text = "The Forgotten Forest";
             this.btnLand2.UseVisualStyleBackColor = true;
+            this.btnLand2.Click += new System.EventHandler(this.btnLand2_Click);
             // 
             // btnLand1
             // 
@@ -373,34 +374,37 @@
             // 
             // pBoxEnemy
             // 
-            this.pBoxEnemy.Location = new System.Drawing.Point(780, 6);
+            this.pBoxEnemy.Location = new System.Drawing.Point(743, 6);
             this.pBoxEnemy.Name = "pBoxEnemy";
-            this.pBoxEnemy.Size = new System.Drawing.Size(153, 190);
+            this.pBoxEnemy.Size = new System.Drawing.Size(190, 190);
             this.pBoxEnemy.TabIndex = 10;
             this.pBoxEnemy.TabStop = false;
             // 
-            // pBoxCombatPlayer
+            // pBoxPlayer
             // 
-            this.pBoxCombatPlayer.Location = new System.Drawing.Point(8, 6);
-            this.pBoxCombatPlayer.Name = "pBoxCombatPlayer";
-            this.pBoxCombatPlayer.Size = new System.Drawing.Size(152, 190);
-            this.pBoxCombatPlayer.TabIndex = 9;
-            this.pBoxCombatPlayer.TabStop = false;
+            this.pBoxPlayer.Location = new System.Drawing.Point(8, 6);
+            this.pBoxPlayer.Name = "pBoxPlayer";
+            this.pBoxPlayer.Size = new System.Drawing.Size(190, 190);
+            this.pBoxPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pBoxPlayer.TabIndex = 9;
+            this.pBoxPlayer.TabStop = false;
             // 
             // pBoxEnvironment
             // 
+            this.pBoxEnvironment.InitialImage = null;
             this.pBoxEnvironment.Location = new System.Drawing.Point(8, 6);
             this.pBoxEnvironment.Name = "pBoxEnvironment";
-            this.pBoxEnvironment.Size = new System.Drawing.Size(925, 190);
+            this.pBoxEnvironment.Size = new System.Drawing.Size(928, 190);
+            this.pBoxEnvironment.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pBoxEnvironment.TabIndex = 6;
             this.pBoxEnvironment.TabStop = false;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnFlee);
-            this.groupBox1.Controls.Add(this.btnSkill);
+            this.groupBox1.Controls.Add(this.btnUseSkill);
             this.groupBox1.Controls.Add(this.btnBlock);
-            this.groupBox1.Controls.Add(this.btnAttack);
+            this.groupBox1.Controls.Add(this.btnBasicAttack);
             this.groupBox1.Controls.Add(this.cBoxSkill);
             this.groupBox1.Location = new System.Drawing.Point(6, 448);
             this.groupBox1.Name = "groupBox1";
@@ -418,14 +422,14 @@
             this.btnFlee.Text = "Flee!";
             this.btnFlee.UseVisualStyleBackColor = true;
             // 
-            // btnSkill
+            // btnUseSkill
             // 
-            this.btnSkill.Location = new System.Drawing.Point(111, 62);
-            this.btnSkill.Name = "btnSkill";
-            this.btnSkill.Size = new System.Drawing.Size(75, 23);
-            this.btnSkill.TabIndex = 4;
-            this.btnSkill.Text = "Use skill";
-            this.btnSkill.UseVisualStyleBackColor = true;
+            this.btnUseSkill.Location = new System.Drawing.Point(111, 62);
+            this.btnUseSkill.Name = "btnUseSkill";
+            this.btnUseSkill.Size = new System.Drawing.Size(75, 23);
+            this.btnUseSkill.TabIndex = 4;
+            this.btnUseSkill.Text = "Use skill";
+            this.btnUseSkill.UseVisualStyleBackColor = true;
             // 
             // btnBlock
             // 
@@ -436,14 +440,14 @@
             this.btnBlock.Text = "Block";
             this.btnBlock.UseVisualStyleBackColor = true;
             // 
-            // btnAttack
+            // btnBasicAttack
             // 
-            this.btnAttack.Location = new System.Drawing.Point(7, 20);
-            this.btnAttack.Name = "btnAttack";
-            this.btnAttack.Size = new System.Drawing.Size(75, 23);
-            this.btnAttack.TabIndex = 2;
-            this.btnAttack.Text = "Basic Attack";
-            this.btnAttack.UseVisualStyleBackColor = true;
+            this.btnBasicAttack.Location = new System.Drawing.Point(7, 20);
+            this.btnBasicAttack.Name = "btnBasicAttack";
+            this.btnBasicAttack.Size = new System.Drawing.Size(75, 23);
+            this.btnBasicAttack.TabIndex = 2;
+            this.btnBasicAttack.Text = "Basic Attack";
+            this.btnBasicAttack.UseVisualStyleBackColor = true;
             // 
             // cBoxSkill
             // 
@@ -453,13 +457,13 @@
             this.cBoxSkill.Size = new System.Drawing.Size(121, 21);
             this.cBoxSkill.TabIndex = 1;
             // 
-            // txtBattle
+            // txtBattleLog
             // 
-            this.txtBattle.Location = new System.Drawing.Point(204, 208);
-            this.txtBattle.Name = "txtBattle";
-            this.txtBattle.Size = new System.Drawing.Size(533, 204);
-            this.txtBattle.TabIndex = 0;
-            this.txtBattle.Text = "";
+            this.txtBattleLog.Location = new System.Drawing.Point(204, 208);
+            this.txtBattleLog.Name = "txtBattleLog";
+            this.txtBattleLog.Size = new System.Drawing.Size(533, 204);
+            this.txtBattleLog.TabIndex = 0;
+            this.txtBattleLog.Text = "";
             // 
             // tabPage2
             // 
@@ -469,8 +473,8 @@
             this.tabPage2.Controls.Add(this.groupBox4);
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Controls.Add(this.groupBox2);
-            this.tabPage2.Controls.Add(this.pictureBox4);
             this.tabPage2.Controls.Add(this.lblPName);
+            this.tabPage2.Controls.Add(this.pBoxCharacter);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -499,41 +503,40 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.pictureBox8);
+            this.groupBox5.Controls.Add(this.pBoxHead);
             this.groupBox5.Controls.Add(this.label8);
             this.groupBox5.Controls.Add(this.label7);
-            this.groupBox5.Controls.Add(this.comboBox7);
-            this.groupBox5.Controls.Add(this.comboBox6);
-            this.groupBox5.Controls.Add(this.pictureBox7);
-            this.groupBox5.Controls.Add(this.pictureBox6);
-            this.groupBox5.Controls.Add(this.pictureBox5);
-            this.groupBox5.Controls.Add(this.pictureBox3);
-            this.groupBox5.Controls.Add(this.pictureBox2);
-            this.groupBox5.Controls.Add(this.pictureBox1);
-            this.groupBox5.Controls.Add(this.comboBox5);
+            this.groupBox5.Controls.Add(this.cBoxMainhand);
+            this.groupBox5.Controls.Add(this.cBoxArmor);
+            this.groupBox5.Controls.Add(this.pBoxOffhand);
+            this.groupBox5.Controls.Add(this.pBoxArmor);
+            this.groupBox5.Controls.Add(this.pBoxMainhand);
+            this.groupBox5.Controls.Add(this.pBoxFeet);
+            this.groupBox5.Controls.Add(this.pBoxLegs);
+            this.groupBox5.Controls.Add(this.pBoxBelt);
+            this.groupBox5.Controls.Add(this.cBoxLegs);
             this.groupBox5.Controls.Add(this.label6);
             this.groupBox5.Controls.Add(this.label5);
             this.groupBox5.Controls.Add(this.label4);
             this.groupBox5.Controls.Add(this.label3);
             this.groupBox5.Controls.Add(this.label2);
-            this.groupBox5.Controls.Add(this.comboBox2);
-            this.groupBox5.Controls.Add(this.comboBox1);
-            this.groupBox5.Controls.Add(this.comboBox3);
-            this.groupBox5.Controls.Add(this.comboBox4);
+            this.groupBox5.Controls.Add(this.cBoxHead);
+            this.groupBox5.Controls.Add(this.cBoxOffhand);
+            this.groupBox5.Controls.Add(this.cBoxBelt);
+            this.groupBox5.Controls.Add(this.cBoxFeet);
             this.groupBox5.Location = new System.Drawing.Point(500, 19);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(430, 533);
             this.groupBox5.TabIndex = 11;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "groupBox5";
             // 
-            // pictureBox8
+            // pBoxHead
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(152, 56);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(121, 73);
-            this.pictureBox8.TabIndex = 26;
-            this.pictureBox8.TabStop = false;
+            this.pBoxHead.Location = new System.Drawing.Point(152, 56);
+            this.pBoxHead.Name = "pBoxHead";
+            this.pBoxHead.Size = new System.Drawing.Size(121, 73);
+            this.pBoxHead.TabIndex = 26;
+            this.pBoxHead.TabStop = false;
             // 
             // label8
             // 
@@ -553,77 +556,77 @@
             this.label7.TabIndex = 24;
             this.label7.Text = "Legs";
             // 
-            // comboBox7
+            // cBoxMainhand
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(24, 148);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 21);
-            this.comboBox7.TabIndex = 23;
+            this.cBoxMainhand.FormattingEnabled = true;
+            this.cBoxMainhand.Location = new System.Drawing.Point(24, 148);
+            this.cBoxMainhand.Name = "cBoxMainhand";
+            this.cBoxMainhand.Size = new System.Drawing.Size(121, 21);
+            this.cBoxMainhand.TabIndex = 23;
             // 
-            // comboBox6
+            // cBoxArmor
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(152, 148);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 21);
-            this.comboBox6.TabIndex = 22;
+            this.cBoxArmor.FormattingEnabled = true;
+            this.cBoxArmor.Location = new System.Drawing.Point(152, 148);
+            this.cBoxArmor.Name = "cBoxArmor";
+            this.cBoxArmor.Size = new System.Drawing.Size(121, 21);
+            this.cBoxArmor.TabIndex = 22;
             // 
-            // pictureBox7
+            // pBoxOffhand
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(279, 175);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox7.TabIndex = 21;
-            this.pictureBox7.TabStop = false;
+            this.pBoxOffhand.Location = new System.Drawing.Point(279, 175);
+            this.pBoxOffhand.Name = "pBoxOffhand";
+            this.pBoxOffhand.Size = new System.Drawing.Size(121, 153);
+            this.pBoxOffhand.TabIndex = 21;
+            this.pBoxOffhand.TabStop = false;
             // 
-            // pictureBox6
+            // pBoxArmor
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(152, 175);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox6.TabIndex = 20;
-            this.pictureBox6.TabStop = false;
+            this.pBoxArmor.Location = new System.Drawing.Point(152, 175);
+            this.pBoxArmor.Name = "pBoxArmor";
+            this.pBoxArmor.Size = new System.Drawing.Size(121, 153);
+            this.pBoxArmor.TabIndex = 20;
+            this.pBoxArmor.TabStop = false;
             // 
-            // pictureBox5
+            // pBoxMainhand
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(24, 175);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
+            this.pBoxMainhand.Location = new System.Drawing.Point(24, 175);
+            this.pBoxMainhand.Name = "pBoxMainhand";
+            this.pBoxMainhand.Size = new System.Drawing.Size(121, 153);
+            this.pBoxMainhand.TabIndex = 19;
+            this.pBoxMainhand.TabStop = false;
             // 
-            // pictureBox3
+            // pBoxFeet
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(279, 374);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox3.TabIndex = 18;
-            this.pictureBox3.TabStop = false;
+            this.pBoxFeet.Location = new System.Drawing.Point(279, 374);
+            this.pBoxFeet.Name = "pBoxFeet";
+            this.pBoxFeet.Size = new System.Drawing.Size(121, 153);
+            this.pBoxFeet.TabIndex = 18;
+            this.pBoxFeet.TabStop = false;
             // 
-            // pictureBox2
+            // pBoxLegs
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(152, 374);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
+            this.pBoxLegs.Location = new System.Drawing.Point(152, 374);
+            this.pBoxLegs.Name = "pBoxLegs";
+            this.pBoxLegs.Size = new System.Drawing.Size(121, 153);
+            this.pBoxLegs.TabIndex = 17;
+            this.pBoxLegs.TabStop = false;
             // 
-            // pictureBox1
+            // pBoxBelt
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(24, 374);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
+            this.pBoxBelt.Location = new System.Drawing.Point(24, 374);
+            this.pBoxBelt.Name = "pBoxBelt";
+            this.pBoxBelt.Size = new System.Drawing.Size(121, 153);
+            this.pBoxBelt.TabIndex = 16;
+            this.pBoxBelt.TabStop = false;
             // 
-            // comboBox5
+            // cBoxLegs
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(152, 347);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 21);
-            this.comboBox5.TabIndex = 15;
+            this.cBoxLegs.FormattingEnabled = true;
+            this.cBoxLegs.Location = new System.Drawing.Point(152, 347);
+            this.cBoxLegs.Name = "cBoxLegs";
+            this.cBoxLegs.Size = new System.Drawing.Size(121, 21);
+            this.cBoxLegs.TabIndex = 15;
             // 
             // label6
             // 
@@ -670,37 +673,37 @@
             this.label2.TabIndex = 11;
             this.label2.Text = "Head";
             // 
-            // comboBox2
+            // cBoxHead
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(152, 32);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 8;
+            this.cBoxHead.FormattingEnabled = true;
+            this.cBoxHead.Location = new System.Drawing.Point(152, 32);
+            this.cBoxHead.Name = "cBoxHead";
+            this.cBoxHead.Size = new System.Drawing.Size(121, 21);
+            this.cBoxHead.TabIndex = 8;
             // 
-            // comboBox1
+            // cBoxOffhand
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(279, 148);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 7;
+            this.cBoxOffhand.FormattingEnabled = true;
+            this.cBoxOffhand.Location = new System.Drawing.Point(279, 148);
+            this.cBoxOffhand.Name = "cBoxOffhand";
+            this.cBoxOffhand.Size = new System.Drawing.Size(121, 21);
+            this.cBoxOffhand.TabIndex = 7;
             // 
-            // comboBox3
+            // cBoxBelt
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(24, 347);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 9;
+            this.cBoxBelt.FormattingEnabled = true;
+            this.cBoxBelt.Location = new System.Drawing.Point(24, 347);
+            this.cBoxBelt.Name = "cBoxBelt";
+            this.cBoxBelt.Size = new System.Drawing.Size(121, 21);
+            this.cBoxBelt.TabIndex = 9;
             // 
-            // comboBox4
+            // cBoxFeet
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(279, 347);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 10;
+            this.cBoxFeet.FormattingEnabled = true;
+            this.cBoxFeet.Location = new System.Drawing.Point(279, 347);
+            this.cBoxFeet.Name = "cBoxFeet";
+            this.cBoxFeet.Size = new System.Drawing.Size(121, 21);
+            this.cBoxFeet.TabIndex = 10;
             // 
             // groupBox4
             // 
@@ -880,14 +883,6 @@
             this.lblAttHealth.TabIndex = 0;
             this.lblAttHealth.Text = "Health:";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(8, 20);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(121, 153);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
             // lblPName
             // 
             this.lblPName.AutoSize = true;
@@ -896,6 +891,14 @@
             this.lblPName.Size = new System.Drawing.Size(104, 13);
             this.lblPName.TabIndex = 0;
             this.lblPName.Text = "CHARACTERNAME";
+            // 
+            // pBoxCharacter
+            // 
+            this.pBoxCharacter.Location = new System.Drawing.Point(8, 20);
+            this.pBoxCharacter.Name = "pBoxCharacter";
+            this.pBoxCharacter.Size = new System.Drawing.Size(121, 153);
+            this.pBoxCharacter.TabIndex = 1;
+            this.pBoxCharacter.TabStop = false;
             // 
             // tabPage4
             // 
@@ -986,27 +989,27 @@
             this.gBoxPlayer.ResumeLayout(false);
             this.gBoxPlayer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnemy)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pBoxCombatPlayer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxPlayer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxEnvironment)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxHead)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxOffhand)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxArmor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxMainhand)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxFeet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxLegs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxBelt)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBoxCharacter)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
@@ -1022,12 +1025,12 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox cBoxSkill;
-        private System.Windows.Forms.RichTextBox txtBattle;
+        private System.Windows.Forms.RichTextBox txtBattleLog;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button btnFlee;
-        private System.Windows.Forms.Button btnSkill;
+        private System.Windows.Forms.Button btnUseSkill;
         private System.Windows.Forms.Button btnBlock;
-        private System.Windows.Forms.Button btnAttack;
+        private System.Windows.Forms.Button btnBasicAttack;
         private System.Windows.Forms.PictureBox pBoxEnvironment;
         private System.Windows.Forms.Button btnLand7;
         private System.Windows.Forms.Button btnLand5;
@@ -1037,15 +1040,15 @@
         private System.Windows.Forms.Button btnLand2;
         private System.Windows.Forms.Button btnLand1;
         private System.Windows.Forms.PictureBox pBoxEnemy;
-        private System.Windows.Forms.PictureBox pBoxCombatPlayer;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox pBoxPlayer;
+        private System.Windows.Forms.ComboBox cBoxFeet;
+        private System.Windows.Forms.ComboBox cBoxBelt;
+        private System.Windows.Forms.ComboBox cBoxHead;
+        private System.Windows.Forms.ComboBox cBoxOffhand;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pBoxCharacter;
         private System.Windows.Forms.Label lblPName;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label6;
@@ -1061,7 +1064,7 @@
         private System.Windows.Forms.Label lblAttMana;
         private System.Windows.Forms.Label lblAttHealth;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox cBoxLegs;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -1078,19 +1081,18 @@
         private System.Windows.Forms.Label lblPlayerMana;
         private System.Windows.Forms.Label lblPlayerHealth;
         private System.Windows.Forms.Label lblAttPoints;
-        private System.Windows.Forms.Label lblEnvironment;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label lblPlayerLVL;
+        private System.Windows.Forms.PictureBox pBoxHead;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox cBoxMainhand;
+        private System.Windows.Forms.ComboBox cBoxArmor;
+        private System.Windows.Forms.PictureBox pBoxOffhand;
+        private System.Windows.Forms.PictureBox pBoxArmor;
+        private System.Windows.Forms.PictureBox pBoxMainhand;
+        private System.Windows.Forms.PictureBox pBoxFeet;
+        private System.Windows.Forms.PictureBox pBoxLegs;
+        private System.Windows.Forms.PictureBox pBoxBelt;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnAddMBonus;
@@ -1100,5 +1102,6 @@
         private System.Windows.Forms.Button btnAddResist;
         private System.Windows.Forms.Label lblAttResist;
         private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Label lblEnvironment;
     }
 }
