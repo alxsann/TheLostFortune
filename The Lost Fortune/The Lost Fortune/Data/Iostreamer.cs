@@ -13,7 +13,7 @@ namespace The_Lost_Fortune
         public static void SaveToFile(List<object> data)
         {
             // Streamwriter oprettet for at kunne gemme "karateren"
-            FileStream fs = new FileStream("c:\\Users\\Casper\\Documents\\text.bat.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            FileStream fs = new FileStream(Environment.SpecialFolder.MyDocuments.ToString(), FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             try
             {
@@ -27,10 +27,11 @@ namespace The_Lost_Fortune
                     sw.Close();
                 }
                 fs.Close();
+                MessageBox.Show("Files have been saved");
             }
 
         }
-
+            
 
         public static void LoadFile()
     {

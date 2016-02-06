@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO
 
 namespace The_Lost_Fortune
 {
@@ -66,6 +67,11 @@ namespace The_Lost_Fortune
         {
             map.GenerateMap(6);
             map.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
